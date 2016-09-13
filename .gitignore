@@ -24,3 +24,9 @@ node_modules/
 
 # Brunch output folder.
 public/
+
+# tmp directory
+tmp/
+
+# ignore course raw datas
+/app/assets/data/
