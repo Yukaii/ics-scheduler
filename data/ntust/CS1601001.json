@@ -1,0 +1,17 @@
+{
+  "code": "CS1601001",
+  "name": "微積分",
+  "lecturer": "范欽雄",
+  "periods": [
+    {
+      "day": 4,
+      "time": "13:20-14:10",
+      "location": "TR-309"
+    },
+    {
+      "day": 4,
+      "time": "14:20-15:10",
+      "location": "TR-309"
+    }
+  ]
+}

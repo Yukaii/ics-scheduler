@@ -1,0 +1,12 @@
+{
+  "code": "EN5111701",
+  "name": "高等酵素學",
+  "lecturer": "Christopher",
+  "periods": [
+    {
+      "day": 1,
+      "time": "15:30-16:20",
+      "location": "IB-507"
+    }
+  ]
+}

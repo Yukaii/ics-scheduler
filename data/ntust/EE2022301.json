@@ -1,0 +1,22 @@
+{
+  "code": "EE2022301",
+  "name": "機率",
+  "lecturer": "鍾順平",
+  "periods": [
+    {
+      "day": 2,
+      "time": "13:20-14:10",
+      "location": "IB-502"
+    },
+    {
+      "day": 2,
+      "time": "14:20-15:10",
+      "location": "IB-502"
+    },
+    {
+      "day": 4,
+      "time": "10:20-11:10",
+      "location": "IB-502"
+    }
+  ]
+}

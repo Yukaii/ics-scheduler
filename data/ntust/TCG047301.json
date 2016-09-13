@@ -1,0 +1,12 @@
+{
+  "code": "TCG047301",
+  "name": "養生醫學",
+  "lecturer": "李兆麟",
+  "periods": [
+    {
+      "day": 3,
+      "time": "12:20-13:10",
+      "location": "TR-214"
+    }
+  ]
+}

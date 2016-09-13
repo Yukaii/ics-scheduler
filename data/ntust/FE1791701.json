@@ -1,0 +1,17 @@
+{
+  "code": "FE1791701",
+  "name": "簡報英文",
+  "lecturer": "黃湘玲",
+  "periods": [
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": "TR-513"
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": "TR-513"
+    }
+  ]
+}

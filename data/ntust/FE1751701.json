@@ -1,0 +1,17 @@
+{
+  "code": "FE1751701",
+  "name": "商務英文溝通",
+  "lecturer": "JeremySyk",
+  "periods": [
+    {
+      "day": 1,
+      "time": "15:30-16:20",
+      "location": "IB-410-1"
+    },
+    {
+      "day": 1,
+      "time": "16:30-17:20",
+      "location": "IB-410-1"
+    }
+  ]
+}

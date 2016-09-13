@@ -1,0 +1,17 @@
+{
+  "code": "HCG007301",
+  "name": "天文漫談",
+  "lecturer": "王致悅",
+  "periods": [
+    {
+      "day": 2,
+      "time": "18:25-19:15",
+      "location": "TR-214"
+    },
+    {
+      "day": 2,
+      "time": "19:20-20:10",
+      "location": "TR-214"
+    }
+  ]
+}

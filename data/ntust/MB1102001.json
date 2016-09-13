@@ -1,0 +1,22 @@
+{
+  "code": "MB1102001",
+  "name": "經濟學",
+  "lecturer": "黃庭鍾",
+  "periods": [
+    {
+      "day": 5,
+      "time": "13:20-14:10",
+      "location": "IB-608"
+    },
+    {
+      "day": 5,
+      "time": "14:20-15:10",
+      "location": "IB-608"
+    },
+    {
+      "day": 5,
+      "time": "15:30-16:20",
+      "location": "IB-608"
+    }
+  ]
+}

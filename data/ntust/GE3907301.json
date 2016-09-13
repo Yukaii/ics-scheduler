@@ -1,0 +1,17 @@
+{
+  "code": "GE3907301",
+  "name": "管理概論",
+  "lecturer": "賴明政",
+  "periods": [
+    {
+      "day": 4,
+      "time": "08:10-09:00",
+      "location": "TR-213"
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": "TR-213"
+    }
+  ]
+}

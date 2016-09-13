@@ -1,0 +1,32 @@
+{
+  "code": "CE1602304",
+  "name": "微積分（一）",
+  "lecturer": "王孟菊",
+  "periods": [
+    {
+      "day": 2,
+      "time": "16:30-17:20",
+      "location": "IB-303"
+    },
+    {
+      "day": 3,
+      "time": "13:20-14:10",
+      "location": "IB-303"
+    },
+    {
+      "day": 3,
+      "time": "14:20-15:10",
+      "location": "IB-303"
+    },
+    {
+      "day": 5,
+      "time": "13:20-14:10",
+      "location": "IB-303"
+    },
+    {
+      "day": 5,
+      "time": "14:20-15:10",
+      "location": "IB-303"
+    }
+  ]
+}

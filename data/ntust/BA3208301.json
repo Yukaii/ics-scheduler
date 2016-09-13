@@ -1,0 +1,22 @@
+{
+  "code": "BA3208301",
+  "name": "財務管理",
+  "lecturer": "徐中琦",
+  "periods": [
+    {
+      "day": 4,
+      "time": "15:30-16:20",
+      "location": "IB-501"
+    },
+    {
+      "day": 4,
+      "time": "16:30-17:20",
+      "location": "IB-501"
+    },
+    {
+      "day": 4,
+      "time": "17:30-18:20",
+      "location": "IB-501"
+    }
+  ]
+}

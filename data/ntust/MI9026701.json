@@ -1,0 +1,22 @@
+{
+  "code": "MI9026701",
+  "name": "資料探勘",
+  "lecturer": "呂永和",
+  "periods": [
+    {
+      "day": 1,
+      "time": "09:10-10:00",
+      "location": "MA-303"
+    },
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": "MA-303"
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": "MA-303"
+    }
+  ]
+}

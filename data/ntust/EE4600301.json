@@ -1,0 +1,17 @@
+{
+  "code": "EE4600301",
+  "name": "通信系統",
+  "lecturer": "劉馨勤",
+  "periods": [
+    {
+      "day": 2,
+      "time": "13:20-14:10",
+      "location": "EE-407"
+    },
+    {
+      "day": 2,
+      "time": "14:20-15:10",
+      "location": "EE-407"
+    }
+  ]
+}

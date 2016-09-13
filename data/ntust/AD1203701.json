@@ -1,0 +1,22 @@
+{
+  "code": "AD1203701",
+  "name": "建築圖學",
+  "lecturer": "丁家偉",
+  "periods": [
+    {
+      "day": 1,
+      "time": "18:25-19:15",
+      "location": "RB-508"
+    },
+    {
+      "day": 1,
+      "time": "19:20-20:10",
+      "location": "RB-508"
+    },
+    {
+      "day": 1,
+      "time": "20:10-21:05",
+      "location": "RB-508"
+    }
+  ]
+}

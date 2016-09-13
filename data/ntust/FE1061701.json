@@ -1,0 +1,22 @@
+{
+  "code": "FE1061701",
+  "name": "商務華語",
+  "lecturer": "麥皓婷",
+  "periods": [
+    {
+      "day": 1,
+      "time": "18:25-19:15",
+      "location": "IB-306"
+    },
+    {
+      "day": 1,
+      "time": "19:20-20:10",
+      "location": "IB-306"
+    },
+    {
+      "day": 1,
+      "time": "20:10-21:05",
+      "location": "IB-306"
+    }
+  ]
+}

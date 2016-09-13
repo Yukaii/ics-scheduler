@@ -1,0 +1,22 @@
+{
+  "code": "BA4101701",
+  "name": "服務業行銷",
+  "lecturer": "呂文琴",
+  "periods": [
+    {
+      "day": 4,
+      "time": "13:20-14:10",
+      "location": "TR-209"
+    },
+    {
+      "day": 4,
+      "time": "14:20-15:10",
+      "location": "TR-209"
+    },
+    {
+      "day": 4,
+      "time": "15:30-16:20",
+      "location": "TR-209"
+    }
+  ]
+}

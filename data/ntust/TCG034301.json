@@ -1,0 +1,22 @@
+{
+  "code": "TCG034301",
+  "name": "文學與電影",
+  "lecturer": "許榮哲",
+  "periods": [
+    {
+      "day": 4,
+      "time": "18:25-19:15",
+      "location": "AU-101"
+    },
+    {
+      "day": 4,
+      "time": "19:20-20:10",
+      "location": "AU-101"
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
+      "location": "AU-101"
+    }
+  ]
+}

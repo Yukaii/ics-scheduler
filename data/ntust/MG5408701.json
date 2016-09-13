@@ -1,0 +1,22 @@
+{
+  "code": "MG5408701",
+  "name": "財務管理",
+  "lecturer": "陳俊男",
+  "periods": [
+    {
+      "day": 4,
+      "time": "18:25-19:15",
+      "location": "MA-405"
+    },
+    {
+      "day": 4,
+      "time": "19:20-20:10",
+      "location": "MA-405"
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
+      "location": "MA-405"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "code": "BA3911701",
+  "name": "賽局與談判",
+  "lecturer": "張順教",
+  "periods": [
+    {
+      "day": 5,
+      "time": "13:20-14:10",
+      "location": "IB-503"
+    },
+    {
+      "day": 5,
+      "time": "14:20-15:10",
+      "location": "IB-503"
+    },
+    {
+      "day": 5,
+      "time": "15:30-16:20",
+      "location": "IB-503"
+    }
+  ]
+}

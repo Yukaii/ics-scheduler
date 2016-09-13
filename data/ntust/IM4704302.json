@@ -1,0 +1,22 @@
+{
+  "code": "IM4704302",
+  "name": "品質管理",
+  "lecturer": "葉瑞徽",
+  "periods": [
+    {
+      "day": 3,
+      "time": "13:20-14:10",
+      "location": "MA-010"
+    },
+    {
+      "day": 3,
+      "time": "14:20-15:10",
+      "location": "MA-010"
+    },
+    {
+      "day": 3,
+      "time": "15:30-16:20",
+      "location": "MA-010"
+    }
+  ]
+}

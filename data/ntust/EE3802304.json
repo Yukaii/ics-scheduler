@@ -1,0 +1,22 @@
+{
+  "code": "EE3802304",
+  "name": "微算機概論實習",
+  "lecturer": "王乃堅",
+  "periods": [
+    {
+      "day": 2,
+      "time": "15:30-16:20",
+      "location": "EE-B05"
+    },
+    {
+      "day": 2,
+      "time": "16:30-17:20",
+      "location": "EE-B05"
+    },
+    {
+      "day": 2,
+      "time": "17:30-18:20",
+      "location": "EE-B05"
+    }
+  ]
+}

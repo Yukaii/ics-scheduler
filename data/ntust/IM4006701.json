@@ -1,0 +1,22 @@
+{
+  "code": "IM4006701",
+  "name": "設施規劃",
+  "lecturer": "謝宗霖",
+  "periods": [
+    {
+      "day": 1,
+      "time": "17:30-18:20",
+      "location": "IB-501"
+    },
+    {
+      "day": 1,
+      "time": "18:25-19:15",
+      "location": "IB-501"
+    },
+    {
+      "day": 1,
+      "time": "19:20-20:10",
+      "location": "IB-501"
+    }
+  ]
+}

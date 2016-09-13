@@ -1,0 +1,22 @@
+{
+  "code": "TX6603701",
+  "name": "真空薄膜工程",
+  "lecturer": "朱  瑾",
+  "periods": [
+    {
+      "day": 5,
+      "time": "13:20-14:10",
+      "location": "TR-212"
+    },
+    {
+      "day": 5,
+      "time": "14:20-15:10",
+      "location": "TR-212"
+    },
+    {
+      "day": 5,
+      "time": "15:30-16:20",
+      "location": "TR-212"
+    }
+  ]
+}
