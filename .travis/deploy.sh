@@ -23,9 +23,13 @@ SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO $OUTPUT_FOLDER
+git clone $REPO repo
+cd repo
+mkdir $OUTPUT_FOLDER
 cd $OUTPUT_FOLDER
-git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+git clone $REPO .
+git checkout $TARGET_BRANCH || git checkout origin/$TARGET_BRANCH -b $TARGET_BRANCH
+git branch -D master
 cd ..
 
 # Clean out existing contents
