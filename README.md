@@ -1,28 +1,57 @@
-# Brunch + Babel/ES6
+# 課程行事曆產生工具
 
-This is a modern JS skeleton for [Brunch](http://brunch.io).
+繼承原專案 [Neson/NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)，為了用 GitHub Pages 免費部屬，改成完全用 Client Side JavaScript 的架構 :heart:
 
-## Installation
+架構保留擴充其它學校的可能。
 
-Clone this repo manually or use `brunch new dir -s brunch/with-es6`
+## Dependencies
 
-## Getting started
+* Node Js (6.2 up)
 
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * Brunch plugins and app dependencies: `npm install`
-* Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `brunch build --production` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+## Development
 
-## ES7
+```bash
+npm install
+npm install brunch -g
+brunch watch --server
+```
 
-To use proposed JS features not included into ES6, do this:
+### Build
 
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
+```bash
+brunch build --production
+```
+
+### Run crawler
+
+```bash
+./bin/ntust
+```
+
+會在 `app/assets/data/ntust` 底下儲存抓下的課程資料檔。格式範例為：
+
+```js
+/* 3N1102702.json */
+{
+  "code": "3N1102702",
+  "name": "東亞現代化城市發展",
+  "lecturer": "王恩美",
+  "periods": [
+    {
+      "day": 2,
+      "time": "09:10-10:00",
+      "location": "本部 樸407"
+    },
+    {
+      "day": 2,
+      "time": "10:20-11:10",
+      "location": "本部 樸407"
+    },
+    {
+      "day": 2,
+      "time": "11:20-12:10",
+      "location": "本部 樸407"
+    }
+  ]
+}
+```
