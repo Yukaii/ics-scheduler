@@ -1,6 +1,8 @@
 language: node_js
 node_js:
   - '6.1'
+before_install:
+  - npm install -g brunch
 script:
   - ./bin/ntust
   - ./.travis/deploy.sh
