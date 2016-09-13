@@ -1,0 +1,174 @@
+#!/usr/bin/env node
+var cheerio = require('cheerio');
+var request = require('request').defaults({
+	jar: true
+});
+var fs = require('fs');
+var path = require('path');
+
+var rmdir = function(dir) {
+	var list = fs.readdirSync(dir);
+	for(var i = 0; i < list.length; i++) {
+		var filename = path.join(dir, list[i]);
+		var stat = fs.statSync(filename);
+
+		if(filename == '.' || filename == '..') {
+			// pass these files
+		} else if(stat.isDirectory()) {
+			// rmdir recursively
+			rmdir(filename);
+		} else {
+			// rm fiilename
+			fs.unlinkSync(filename);
+		}
+	}
+	fs.rmdirSync(dir);
+};
+
+var YEAR = 2016;
+var TERM = 1;
+var ORGANIZATION_CODE = 'ntust';
+
+var DAYS = {
+	'M': 1,
+	'T': 2,
+	'W': 3,
+	'R': 4,
+	'F': 5,
+	'S': 6,
+	'U': 7,
+};
+
+var CHN_DAYS = {
+	'一': 1,
+	'二': 2,
+	'三': 3,
+	'四': 4,
+	'五': 5,
+	'六': 6,
+	'日': 7
+};
+
+var PERIODS = {
+	'0':  '07:10-08:00',
+	'1':  '08:10-09:00',
+	'2':  '09:10-10:00',
+	'3':  '10:20-11:10',
+	'4':  '11:20-12:10',
+	'5':  '12:20-13:10',
+	'6':  '13:20-14:10',
+	'7':  '14:20-15:10',
+	'8':  '15:30-16:20',
+	'9':  '16:30-17:20',
+	'10': '17:30-18:20',
+	'A':  '18:25-19:15',
+	'B':  '19:20-20:10',
+	'C':  '20:10-21:05',
+	'D':  '21:10-22:00'
+};
+
+request(
+	'http://140.118.31.215/querycourse/ChCourseQuery/QueryCondition.aspx',
+	function(err, response, body) {
+		var $ = cheerio.load(body);
+		var viewState = $('input[type="hidden"]').toArray().reduce(function(acc, input) {
+			return Object.assign(acc, {[$(input).attr('name')]: $(input).attr('value')});
+		}, {});
+
+		var semester = $('#semester_list option').toArray().find(function(elem) {
+			var regex = new RegExp('^' + (YEAR-1911).toString() + TERM.toString());
+			return regex.test($(elem).attr('value'));
+		});
+		var semesterValue = $(semester).attr('value');
+
+		request.post({
+			url: 'http://140.118.31.215/querycourse/ChCourseQuery/QueryCondition.aspx',
+			formData: Object.assign({}, viewState, {
+				'semester_list': semesterValue,
+				'Acb0101': 'on',
+				'BCH0101': 'on',
+				'QuerySend': '送出查詢'
+			}),
+			followAllRedirects: true
+		}, function(err, res, body) {
+			var $ = cheerio.load(body);
+			var courseDatas = $('table#my_dg tr:not(:first-child)').toArray().map(function(row) {
+				var datas = $(row).children('td').toArray();
+
+				// three types of period string:
+				//   一5、三5、五234 => only one location
+				//   T2 T3 T4       => only one location
+				//   M2、M3、M4      => location split by '、'
+
+				// one regex for all types
+				var regex = /([一二三四五六日MTWRFSU][\dABCD]+)/g;
+				var periodString = $(datas[8]).text().trim();
+				var locationString = $(datas[9]).text().trim();
+				var locations = locationString.split('、');
+				var periods = [];
+
+				var match = periodString.match(regex);
+				match && match.map(function(raw_period, index) {
+					if (Object.keys(DAYS).includes(raw_period[0])) {
+						if (periodString.indexOf('、') !== -1) {
+							// type: M2、M3、M4
+							periods.push({
+								day:      DAYS[raw_period[0]],
+								time:     PERIODS[raw_period.slice(1, raw_period.length)],
+								location: locations[index]
+							});
+						} else {
+							// type: T2 T3 T4
+							periods.push({
+								day:      DAYS[raw_period[0]],
+								time:     PERIODS[raw_period.slice(1, raw_period.length)],
+								location: locationString
+							});
+						}
+					} else {
+						// type:  一5、三5、五234
+						var preprocess_period = function(array) {
+							var tenIndex = -1;
+							var hasTen = array.reduce(function(prev, cur, index) {
+								var zeroOneSequence = cur === '0' && array[index + 1] === '1';
+								if (zeroOneSequence) { tenIndex = index + 1; }
+								return prev | zeroOneSequence;
+							}, false);
+
+							if (hasTen) {
+								array.splice(tenIndex, 1);
+								array[tenIndex - 1] = 10;
+							}
+
+							return array;
+						};
+
+						preprocess_period(raw_period.slice(1, raw_period.length).split('')).map(function(period) {
+							periods.push({
+								day: CHN_DAYS[raw_period[0]],
+								time: PERIODS[period],
+								location: locationString
+							});
+						});
+					}
+				});
+
+				return {
+					code: $(datas[0]).text().trim(),
+					name: $(datas[2]).text().trim(),
+					lecturer: $(datas[7]).text().trim(),
+					periods: periods
+				};
+			});
+
+			var directory = 'app/assets/data/ntust';
+			if (fs.existsSync(directory)) {
+				rmdir(directory);
+				fs.mkdirSync(directory);
+
+				for (var data of courseDatas) {
+					fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data, null, 2));
+				}
+			}
+		});
+	});
