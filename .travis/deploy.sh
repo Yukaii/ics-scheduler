@@ -6,6 +6,7 @@ TARGET_BRANCH="gh-pages"
 OUTPUT_FOLDER="public"
 
 function doCompile {
+  npm install
   npm run prod
 }
 
@@ -23,12 +24,10 @@ SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO repo
-cd repo
 mkdir $OUTPUT_FOLDER
 cd $OUTPUT_FOLDER
 git clone $REPO .
-git checkout $TARGET_BRANCH || git checkout origin/$TARGET_BRANCH -b $TARGET_BRANCH
+git checkout $TARGET_BRANCH || git checkout -b $TARGET_BRANCH origin/$TARGET_BRANCH
 git branch -D master
 cd ..
 
@@ -59,7 +58,7 @@ ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
 ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in .travis/travis_rsa.enc -out deploy_key -d
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../.travis/travis_rsa.enc -out deploy_key -d
 chmod 600 deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
