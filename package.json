@@ -11,7 +11,12 @@
     "start": "brunch watch --server",
     "prod": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.4",
+    "file-saver": "^1.3.2",
+    "jquery": "^3.1.0",
+    "tether": "^1.3.7"
+  },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
     "babel-brunch": "~6.0.0",
@@ -25,6 +30,7 @@
     "eslint-config-airbnb-base": "^7.1.0",
     "javascript-brunch": "^2.0.0",
     "request": "^2.74.0",
+    "sass-brunch": "^2.6.3",
     "uglify-js-brunch": "^2.0.0"
   }
 }
