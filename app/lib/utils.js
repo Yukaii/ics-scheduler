@@ -19,7 +19,7 @@ export function icsGenerate(course_datas){
 
 	var eventString = course_datas.map((course_data) => {
 		return Array.isArray(course_data.periods) && course_data.periods.map(period => {
-			var [dtstart, dtend] = period.time.split('-').map(time => new Date(`${semesterDateString} ${time}`).toISOString()).map(timeStr => timeStr.slice(0, 19).replace(/[-:]/g, ''));
+			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day).toISOString()).map(timeStr => timeStr.slice(0, 19).replace(/[-:]/g, ''));
 
 			return `BEGIN:VEVENT
 DTSTART;TZID=Asia/Taipei:${dtstart}
