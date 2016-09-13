@@ -19,12 +19,13 @@ export function icsGenerate(course_datas){
 
 	var eventString = course_datas.map((course_data) => {
 		return Array.isArray(course_data.periods) && course_data.periods.map(period => {
-			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day).toISOString()).map(timeStr => timeStr.slice(0, 19).replace(/[-:]/g, ''));
+			var timePair = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day));
+			var [dtstart, dtend] = timePair.map(time => time.toISOString().slice(0, 19).replace(/[-:]/g, ''));
 
 			return `BEGIN:VEVENT
-DTSTART;TZID=Asia/Taipei:${dtstart}
-DTEND;TZID=Asia/Taipei:${dtend}
-RRULE:FREQ=WEEKLY;COUNT=18;BYDAY=${DAY[nextDay(new Date(semesterDateString), period.day).getDay()]}
+DTSTART;TZID=UTC:${dtstart}
+DTEND;TZID=UTC:${dtend}
+RRULE:FREQ=WEEKLY;COUNT=18;BYDAY=${DAY[nextDay(timePair[0], period.day).getDay()]}
 SUMMARY:${course_data.name}
 LOCATION:${period.location}
 DESCRIPTION:授課教師:${course_data.lecturer}
