@@ -29,4 +29,5 @@ public/
 tmp/
 
 # ignore course raw datas
-/app/assets/data/
+/app/assets/data/*
+!/app/assets/data/.keep
