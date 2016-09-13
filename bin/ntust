@@ -162,13 +162,11 @@ request(
 			});
 
 			var directory = 'app/assets/data/ntust';
-			if (fs.existsSync(directory)) {
-				rmdir(directory);
-				fs.mkdirSync(directory);
+			if (fs.existsSync(directory)) { rmdir(directory); }
 
-				for (var data of courseDatas) {
-					fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data, null, 2));
-				}
+			fs.mkdirSync(directory);
+			for (var data of courseDatas) {
+				fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data, null, 2));
 			}
 		});
 	});
