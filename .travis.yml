@@ -3,4 +3,4 @@ node_js:
   - '6.1'
 script:
   - ./bin/ntust
-  - if [ "$TRAVIS_BRANCH" == "production" ]; sh .travis/deploy.sh; fi;
+  - ./.travis/deploy.sh
