@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '6'
+  - '6.1'
+before_script:
+  - npm install -g gulp
+script:
+  - gulp crawl
+  - if [ "$TRAVIS_BRANCH" == "deploy" ]; then
+    sh .travis/deploy.sh
+    fi
