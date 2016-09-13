@@ -1,5 +1,7 @@
 # 課程行事曆產生工具
 
+[![Build Status](https://travis-ci.org/Yukaii/ics-scheduler.svg?branch=master)](https://travis-ci.org/Yukaii/ics-scheduler)
+
 繼承原專案 [Neson/NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)，為了用 GitHub Pages 免費部屬，改成完全用 Client Side JavaScript 的架構 :heart:
 
 架構保留擴充其它學校的可能。
