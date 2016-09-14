@@ -32,7 +32,6 @@ mkdir $OUTPUT_FOLDER
 cd $OUTPUT_FOLDER
 git clone $REPO .
 git checkout $TARGET_BRANCH || git checkout -b $TARGET_BRANCH origin/$TARGET_BRANCH
-git branch -D master
 cd ..
 
 # Clean out existing contents
@@ -54,7 +53,7 @@ fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add .
+git add --all
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
