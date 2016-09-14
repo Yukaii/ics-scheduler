@@ -6,7 +6,6 @@ TARGET_BRANCH="gh-pages"
 OUTPUT_FOLDER="public"
 
 function doCompile {
-  npm install
   npm run prod
 }
 
@@ -17,8 +16,9 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     exit 0
 fi
 
-if ["$TRAVIS_PULL_REQUEST" != "false"]; then
-  ./bin/ntust # run crawler
+if [[ "$TRAVIS_PULL_REQUEST" != "false" || "$TRAVIS_BRANCH" == "$SOURCE_BRANCH" ]]; then
+  echo 'start running crawler'
+  ./bin/ntust
 fi
 
 # Save some useful information
@@ -46,14 +46,16 @@ git config user.name "Travis CI"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if [ -z `git diff --exit-code` ]; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Will deploy a new version";
+else
+  echo "No changes to the output on this push; exiting."
+  exit 0
 fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add --all
+git add .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
