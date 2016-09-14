@@ -22,7 +22,7 @@ $(document).ready(() => {
 				else { jobCount -= 1; } // error occur
 
 				if (done == jobCount) {
-					var file = new File([icsGenerate(course_datas)], {type: 'text/calendar;charset=utf-8'});
+					var file = new Blob([icsGenerate(course_datas)], {type: 'text/plain;charset=utf-8'});
 					saveAs(file, 'calendar.ics', true); // last argument true: save file without BOM
 				}
 			});
