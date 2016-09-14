@@ -44,10 +44,15 @@
             <textarea class="form-control" id="raw-input-textarea" rows="7"></textarea>
           </div>
           <div class="form-group">
-            <p>2. 按下去</p>
-            <button type="submit" class="btn btn-success">開始製作</button>
+            <p>2. 按下去，然後等一下</p>
+            <button type="submit" id="ics-generate" class="btn btn-secondary">製作</button>
           </div>
         </form>
+
+        <div class="form-group hidden" id="download-group">
+          <p>3. 然後</p>
+          <a id="ics-anchor" target="_blank" download="calendar.ics"><button class="btn btn-success">下載</button></a>
+        </div>
 
       </div>
     </div>

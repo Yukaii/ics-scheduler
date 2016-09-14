@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import 'bootstrap';
-import { saveAs } from 'file-saver';
 import { icsGenerate } from './lib/utils';
 
 $(document).ready(() => {
@@ -22,8 +21,21 @@ $(document).ready(() => {
 				else { jobCount -= 1; } // error occur
 
 				if (done == jobCount) {
-					var file = new Blob([icsGenerate(course_datas)], {type: 'application/octet-stream'});
-					saveAs(file, 'calendar.ics', true); // last argument true: save file without BOM
+					var icsData = icsGenerate(course_datas);
+					$.post(
+						'https://api.github.com/gists',
+						JSON.stringify({
+							'files': {
+								'calendar.ics': {
+									content: icsData
+								}
+							}
+						}), function(data) {
+							var raw_url = data['files']['calendar.ics']['raw_url'];
+							$('#ics-anchor').attr('href', raw_url);
+							$('#download-group').toggleClass('hidden');
+						}
+					);
 				}
 			});
 		});
