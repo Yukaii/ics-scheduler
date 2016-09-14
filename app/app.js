@@ -7,10 +7,17 @@ $(document).ready(() => {
 		// prevent form submitting, we'll use ajax instead
 		e.preventDefault();
 
+		$('#ics-anchor button').removeClass('btn-danger').text('請稍等');
+
 		// TODO: different school would have different regex
 		//       regex should be put in a seperate file
 		var course_datas = [];
 		var course_codes = $('form #raw-input-textarea').val().match(/[A-Z\d]{9}/g);
+
+		if (!course_codes) {
+			$('#ics-anchor button').addClass('btn-danger').text('課程代碼錯誤');
+			return;
+		}
 
 		var done = 0; // jquery ajax parallel job workaround
 		var jobCount = course_codes.length;
@@ -33,7 +40,7 @@ $(document).ready(() => {
 						}), function(data) {
 							var raw_url = data['files']['calendar.ics']['raw_url'];
 							$('#ics-anchor').attr('href', raw_url);
-							$('#download-group').toggleClass('hidden');
+							$('#ics-anchor button').addClass('btn-success').removeAttr('disabled').text('下載');
 						}
 					);
 				}

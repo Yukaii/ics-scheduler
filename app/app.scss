@@ -15,8 +15,16 @@ body {
   }
 }
 
-.form-group.hidden {
-  display: none;
+.tab-pane {
+  padding-top: .5em;
+  img {
+    max-width: 100%;
+    margin: .4em 0;
+  }
+}
+
+#ics-anchor {
+  text-decoration: none;
 }
 
 textarea {
