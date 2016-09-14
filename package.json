@@ -25,6 +25,7 @@
     "cheerio": "^0.22.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
+    "digest-brunch": "^1.5.1",
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^7.1.0",
     "javascript-brunch": "^2.0.0",
