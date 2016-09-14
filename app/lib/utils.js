@@ -1,4 +1,4 @@
-var semesterDateString = '2016-9-12';
+var semesterDateString = '2016-09-12';
 
 // from http://stackoverflow.com/a/27336600/4147906
 function nextDay(d, dow){
@@ -19,7 +19,7 @@ export function icsGenerate(course_datas){
 
 	var eventString = course_datas.map((course_data) => {
 		return Array.isArray(course_data.periods) && course_data.periods.map(period => {
-			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day));
+			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString}T${time}:00+08:00`), period.day));
 			var [dtstartString, dtendString] = [dtstart, dtend].map(time => time.toISOString().slice(0, 19).replace(/[-:]/g, ''));
 
 			return `BEGIN:VEVENT
