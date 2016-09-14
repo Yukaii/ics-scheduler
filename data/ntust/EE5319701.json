@@ -1,0 +1,22 @@
+{
+  "code": "EE5319701",
+  "name": "Android 終端系統匯流應用設計",
+  "lecturer": "鍾聖倫",
+  "periods": [
+    {
+      "day": 2,
+      "time": "09:10-10:00",
+      "location": "EE-B03"
+    },
+    {
+      "day": 2,
+      "time": "10:20-11:10",
+      "location": "EE-B03"
+    },
+    {
+      "day": 2,
+      "time": "11:20-12:10",
+      "location": "EE-B03"
+    }
+  ]
+}

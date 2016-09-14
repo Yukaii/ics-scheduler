@@ -1,0 +1,12 @@
+{
+  "code": "EN5115701",
+  "name": "進階科技英文寫作",
+  "lecturer": "Christopher",
+  "periods": [
+    {
+      "day": 4,
+      "time": "10:20-11:10",
+      "location": "TR-509"
+    }
+  ]
+}

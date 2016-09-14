@@ -1,0 +1,17 @@
+{
+  "code": "FE1351701",
+  "name": "英語演講(一)",
+  "lecturer": "JeremySyk",
+  "periods": [
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": "IB-410-2"
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": "IB-410-2"
+    }
+  ]
+}

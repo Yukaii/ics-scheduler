@@ -1,0 +1,22 @@
+{
+  "code": "AD1302701",
+  "name": "形式組構",
+  "lecturer": "陳俊利",
+  "periods": [
+    {
+      "day": 5,
+      "time": "09:10-10:00",
+      "location": "TR-609"
+    },
+    {
+      "day": 5,
+      "time": "10:20-11:10",
+      "location": "TR-609"
+    },
+    {
+      "day": 5,
+      "time": "11:20-12:10",
+      "location": "TR-609"
+    }
+  ]
+}

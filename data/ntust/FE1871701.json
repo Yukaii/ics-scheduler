@@ -1,0 +1,17 @@
+{
+  "code": "FE1871701",
+  "name": "跨文化溝通理解",
+  "lecturer": "Aaron",
+  "periods": [
+    {
+      "day": 4,
+      "time": "15:30-16:20",
+      "location": "TR-610"
+    },
+    {
+      "day": 4,
+      "time": "16:30-17:20",
+      "location": "TR-610"
+    }
+  ]
+}

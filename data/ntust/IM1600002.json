@@ -1,0 +1,27 @@
+{
+  "code": "IM1600002",
+  "name": "微積分",
+  "lecturer": "羅士哲",
+  "periods": [
+    {
+      "day": 2,
+      "time": "13:20-14:10",
+      "location": "MA-010"
+    },
+    {
+      "day": 2,
+      "time": "14:20-15:10",
+      "location": "MA-010"
+    },
+    {
+      "day": 5,
+      "time": "08:10-09:00",
+      "location": "MA-010"
+    },
+    {
+      "day": 5,
+      "time": "09:10-10:00",
+      "location": "MA-010"
+    }
+  ]
+}

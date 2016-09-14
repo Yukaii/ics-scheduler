@@ -1,0 +1,22 @@
+{
+  "code": "EE1408305",
+  "name": "計算機程式與應用實習",
+  "lecturer": "鍾聖倫",
+  "periods": [
+    {
+      "day": 1,
+      "time": "09:10-10:00",
+      "location": "EE-B03"
+    },
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": "EE-B03"
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": "EE-B03"
+    }
+  ]
+}

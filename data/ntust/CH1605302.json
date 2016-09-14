@@ -1,0 +1,22 @@
+{
+  "code": "CH1605302",
+  "name": "化學",
+  "lecturer": "高震宇",
+  "periods": [
+    {
+      "day": 2,
+      "time": "10:20-11:10",
+      "location": "IB-401"
+    },
+    {
+      "day": 2,
+      "time": "11:20-12:10",
+      "location": "IB-401"
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": "IB-401"
+    }
+  ]
+}

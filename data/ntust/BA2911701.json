@@ -1,0 +1,22 @@
+{
+  "code": "BA2911701",
+  "name": "談判學",
+  "lecturer": "許重博",
+  "periods": [
+    {
+      "day": 4,
+      "time": "18:25-19:15",
+      "location": "TR-213"
+    },
+    {
+      "day": 4,
+      "time": "19:20-20:10",
+      "location": "TR-213"
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
+      "location": "TR-213"
+    }
+  ]
+}

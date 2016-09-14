@@ -1,0 +1,22 @@
+{
+  "code": "EE3402302",
+  "name": "微算機概論",
+  "lecturer": "王乃堅",
+  "periods": [
+    {
+      "day": 1,
+      "time": "09:10-10:00",
+      "location": "EE-406"
+    },
+    {
+      "day": 3,
+      "time": "13:20-14:10",
+      "location": "EE-406"
+    },
+    {
+      "day": 3,
+      "time": "14:20-15:10",
+      "location": "EE-406"
+    }
+  ]
+}

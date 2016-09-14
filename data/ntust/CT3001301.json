@@ -1,0 +1,22 @@
+{
+  "code": "CT3001301",
+  "name": "計算機概論",
+  "lecturer": "廖國偉",
+  "periods": [
+    {
+      "day": 1,
+      "time": "09:10-10:00",
+      "location": "RB-509"
+    },
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": "RB-509"
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": "RB-509"
+    }
+  ]
+}

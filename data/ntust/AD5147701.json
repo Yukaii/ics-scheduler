@@ -1,0 +1,22 @@
+{
+  "code": "AD5147701",
+  "name": "BIM建築資訊系統應用",
+  "lecturer": "陳昶瑞",
+  "periods": [
+    {
+      "day": 5,
+      "time": "18:25-19:15",
+      "location": "RB-508"
+    },
+    {
+      "day": 5,
+      "time": "19:20-20:10",
+      "location": "RB-508"
+    },
+    {
+      "day": 5,
+      "time": "20:10-21:05",
+      "location": "RB-508"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "HCG014301",
+  "name": "遊戲心理學",
+  "lecturer": "侯惠澤",
+  "periods": [
+    {
+      "day": 3,
+      "time": "15:30-16:20",
+      "location": "TR-313"
+    },
+    {
+      "day": 3,
+      "time": "16:30-17:20",
+      "location": "TR-313"
+    }
+  ]
+}

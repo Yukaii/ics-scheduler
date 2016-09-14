@@ -1,0 +1,22 @@
+{
+  "code": "CS4001301",
+  "name": "程式語言",
+  "lecturer": "吳怡樂",
+  "periods": [
+    {
+      "day": 2,
+      "time": "13:20-14:10",
+      "location": "TR-309"
+    },
+    {
+      "day": 2,
+      "time": "14:20-15:10",
+      "location": "TR-309"
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": "TR-309"
+    }
+  ]
+}

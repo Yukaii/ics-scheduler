@@ -1,0 +1,22 @@
+{
+  "code": "AD2501301",
+  "name": "建築計畫",
+  "lecturer": "李威儀",
+  "periods": [
+    {
+      "day": 1,
+      "time": "13:20-14:10",
+      "location": "TR-213"
+    },
+    {
+      "day": 1,
+      "time": "14:20-15:10",
+      "location": "TR-213"
+    },
+    {
+      "day": 1,
+      "time": "15:30-16:20",
+      "location": "TR-213"
+    }
+  ]
+}

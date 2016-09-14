@@ -1,0 +1,22 @@
+{
+  "code": "CH3006701",
+  "name": "化工數學",
+  "lecturer": "蔡伸隆",
+  "periods": [
+    {
+      "day": 1,
+      "time": "13:20-14:10",
+      "location": "IB-306"
+    },
+    {
+      "day": 1,
+      "time": "14:20-15:10",
+      "location": "IB-306"
+    },
+    {
+      "day": 3,
+      "time": "14:20-15:10",
+      "location": "IB-306"
+    }
+  ]
+}
