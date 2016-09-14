@@ -19,13 +19,13 @@ export function icsGenerate(course_datas){
 
 	var eventString = course_datas.map((course_data) => {
 		return Array.isArray(course_data.periods) && course_data.periods.map(period => {
-			var timePair = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day));
-			var [dtstart, dtend] = timePair.map(time => time.toISOString().slice(0, 19).replace(/[-:]/g, ''));
+			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString} ${time}`), period.day));
+			var [dtstartString, dtendString] = [dtstart, dtend].map(time => time.toISOString().slice(0, 19).replace(/[-:]/g, ''));
 
 			return `BEGIN:VEVENT
-DTSTART;TZID=UTC:${dtstart}
-DTEND;TZID=UTC:${dtend}
-RRULE:FREQ=WEEKLY;COUNT=18;BYDAY=${DAY[nextDay(timePair[0], period.day).getDay()]}
+DTSTART;TZID=UTC:${dtstartString}
+DTEND;TZID=UTC:${dtendString}
+RRULE:FREQ=WEEKLY;COUNT=18;BYDAY=${DAY[nextDay(dtstart, period.day).getDay()]}
 SUMMARY:${course_data.name}
 LOCATION:${period.location}
 DESCRIPTION:授課教師:${course_data.lecturer}
@@ -53,6 +53,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 ${eventString}
-END:VCALENDAR`.replace(/\n/g, `\r\n`);
+END:VCALENDAR`.replace(/\n/g, `\r\n`); // prefer CRLF over LF in ics format
 
 }
