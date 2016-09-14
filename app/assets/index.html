@@ -5,11 +5,12 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-  <meta name="description" content="把台科大課表快速排進行事曆的工具，支援 iOS、Android、Mac 以及絕大多數行事曆軟體。會自動把上課地點和授課教師附註上去。">
+  <meta name="description" content="把學校課表匯進行事曆的工具，支援 iOS、Android、Mac 以及絕大多數行事曆軟體。資料包含上課地點及授課教師。">
   <title>課表行事曆製作工具</title>
   <script src="./vendor.js"></script>
   <script src="./app.js"></script>
   <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="./font/octicons.css">
   <script>require('app');</script>
 </head>
 <body>
@@ -29,31 +30,72 @@
       <div class="card card-block">
         <h3 class="card-title">NTUST<br/>課表行事曆製作工具<span class="semester-date">1051</span></h3>
         <div class="card">
-          <div class="card-header">這啥？</div>
+          <div class="card-header"><span class="octicon octicon-info"></span>這啥？</div>
           <div class="card-block">
-            <p>把台科大課表快速排進行事曆的工具。會自動把上課地點和授課教師附註上去。</p>
-            <p>有鑒於把課表一個一個手動 key-in 到行事曆會死掉所以做了這個東西。支援 iOS、Android、Mac 以及絕大多數可匯入 .ics 格式的行事曆軟體。</p>
-            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="22"></iframe>
-            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55" height="22"></iframe>
+            <p>把學校課表匯進行事曆的工具，有鑒於把課表一個一個手動 key-in 到行事曆會死掉所以做了這個東西。支援 iOS、Android、Mac 以及絕大多數可匯入 .ics 格式的行事曆軟體。若有興趣可參考 <a href="https://tools.ietf.org/html/rfc5545">RFC 5545</a></p>
+            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=watch&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="30"></iframe>
+            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=fork&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="80" height="30"></iframe>
           </div>
         </div>
         <hr>
         <form>
           <div class="form-group">
             <p>1. 輸入您的所有課程代碼，以空白分隔。<br>進 <a href="https://stu255.ntust.edu.tw/ntust_stu/stu.aspx" target="_blank">學生資訊系統</a> 或 <a href="https://crosslink.tw" target="_blank">Crosslink</a> 把選課資料全部複製貼上來也可以。</p>
+
             <textarea class="form-control" id="raw-input-textarea" rows="7"></textarea>
+
           </div>
           <div class="form-group">
-            <p>2. 按下去，然後等一下</p>
-            <button type="submit" id="ics-generate" class="btn btn-secondary">製作</button>
+            <p>2.</p>
+            <button type="submit" id="ics-generate" class="btn btn-primary btn-lg btn-block">按下去</button>
           </div>
         </form>
 
-        <div class="form-group hidden" id="download-group">
-          <p>3. 然後</p>
-          <a id="ics-anchor" target="_blank" download="calendar.ics"><button class="btn btn-success">下載</button></a>
+        <div class="form-group" id="download-group">
+          <p>3.</p>
+          <a id="ics-anchor" target="_blank" download="calendar.ics"><button class="btn btn-secondary btn-lg btn-block" disabled>先按上面那個</button></a>
         </div>
+        <div class="form-group" id="instruction-group">
+          <p>4. 匯入行事曆</p>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#ios" role="tab">iOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#google" role="tab">Google Calendar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#macos" role="tab">macOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#safari" role="tab">Safari</a>
+            </li>
+          </ul>
 
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="ios" role="tabpanel">
+              <p>用手機 Safari 開啟此網頁，依照步驟操作後，會跳出匯入畫面，如下圖。點「全部加入」即可，建議新增行事曆以方便整理</p>
+              <a href="./images/ios-import.png" target="_blank"><img src="./images/ios-import.png" alt="ios-import"></a>
+            </div>
+            <div class="tab-pane" id="google" role="tabpanel">
+              <p>如圖，點開「其它日曆」旁邊的倒三角選單，點「匯入日曆」，再選擇剛剛下載的 <code>calendar.ics</code> 檔案。</p>
+              <a href="./images/how0-android.jpg" target="_blank"><img src="./images/how0-android.jpg" alt="android-google-import"></a>
+              <a href="./images/google-calendar-import.png" target="_blank"><img src="./images/google-calendar-import.png" alt="google-import"></a>
+            </div>
+            <div class="tab-pane" id="macos" role="tabpanel">
+              <p>1. 如圖，先建立一個新的行事曆以方便管理課表：</p>
+              <a href="./images/macos-new-calendar.png" target="_blank"><img src="./images/macos-new-calendar.png" alt="macos-new-calendar"></a>
+              <p>2. 然後點兩下剛剛下載的 <code>calendar.ics</code> 檔案，會跳出匯入視窗，選擇剛剛建立的行事曆匯入即可。</p>
+              <a href="./images/macos-import.png" target="_blank"><img src="./images/macos-import.png" alt="macos-import"></a>
+            </div>
+            <div class="tab-pane" id="safari" role="tabpanel">
+              <p>若是用 macOS 桌面版 Safari 瀏覽器使用此小工具，會直接在新分頁開啟 <code>calendar.ics</code> 檔案，需要手動另存新檔（⌘ + S 或 「檔案」「另存新檔」），再接續 macOS 步驟或是 Google Calendar 步驟完成匯入</p>
+              <p>或是你直接換 Chrome 就可以正常下載了 😅 </p>
+              <a href="./images/safari-import.png" target="_blank"><img src="./images/safari-import.png" alt="safari-import"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
