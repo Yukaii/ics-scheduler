@@ -17,6 +17,11 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     exit 0
 fi
 
+if [[ "$TRAVIS_PULL_REQUEST" != "false" || "$TRAVIS_BRANCH" == "$SOURCE_BRANCH" ]]; then
+  echo 'start running crawler'
+  ./bin/ntust
+fi
+
 # Save some useful information
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
@@ -32,11 +37,6 @@ cd ..
 
 # Clean out existing contents
 rm -rf $OUTPUT_FOLDER/**/* || exit 0
-
-if [[ "$TRAVIS_PULL_REQUEST" != "false" || "$TRAVIS_BRANCH" == "$SOURCE_BRANCH" ]]; then
-  echo 'start running crawler'
-  ./bin/ntust
-fi
 
 # Run our compile script
 doCompile
@@ -54,7 +54,7 @@ fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
-git add --all
+git add .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
