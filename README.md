@@ -4,7 +4,9 @@
 
 ![preview](./docs/images/screenshot-1.png)
 
-一個把學校課表轉成 ics 格式(iCalendar, [RFC 5545](https://tools.ietf.org/html/rfc5545)) 的工具 :heart:。 改寫自 Neson 有四年歷史（！）的專案 [NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)，為了用 GitHub Pages 免費部屬，由原本的 PHP 架構改用客端 JavaScript 重新寫過。去掉資料庫，取而代之是[純粹 JSON 檔案](https://github.com/Yukaii/ics-scheduler/tree/gh-pages)的資料儲存。
+一個把學校課表轉成 ics 格式(iCalendar, [RFC 5545](https://tools.ietf.org/html/rfc5545)) 的工具 :heart:。
+
+改寫自 Neson 有四年歷史（！）的專案 [NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)，為了用 GitHub Pages 免費部屬，由原本的 PHP 架構改用客端 JavaScript 重新寫過。去掉資料庫，取而代之是[純粹 JSON 檔案](https://github.com/Yukaii/ics-scheduler/tree/gh-pages)的資料儲存。
 
 前端使用 Bootstrap v4 alpha 以及 jQuery 3。雖然已經 2016，不過做架構簡單的東西，這樣就夠了 :sweat_smile:
 
