@@ -31,6 +31,12 @@ body {
   text-decoration: none;
 }
 
+@media (max-width: 410px) {
+  .nav-item.nav-item-desktop {
+    display: none;
+  }
+}
+
 #alternative-download-link {
   &.hidden {
     display: none;
