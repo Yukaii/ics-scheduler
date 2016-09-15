@@ -5,11 +5,11 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-  <meta name="description" content="把學校課表匯進行事曆的工具，支援 iOS、Android、Mac 以及絕大多數行事曆軟體。資料包含上課地點及授課教師。">
+  <meta name="description" content="把學校課表匯入行事曆的工具，支援 iOS、Android、Mac 以及絕大多數行事曆軟體。資料包含上課地點及授課教師。">
   <title>課表行事曆製作工具</title>
   <script src="vendor-34780ba2.js"></script>
   <script src="app-5e0c2e91.js"></script>
-  <link rel="stylesheet" href="app-f801f3c7.css">
+  <link rel="stylesheet" href="app-8fb19936.css">
   <link rel="stylesheet" href="font/octicons-b2e2c00b.css">
   <script>require('app');</script>
 </head>
@@ -24,7 +24,7 @@
   ga('send', 'pageview');
   </script>
 
-<a href="https://github.com/Yukaii/ics-scheduler" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#0275d8; color:#f5f5f5; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<a href="https://github.com/Yukaii/ics-scheduler" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#0275d8; color:#f5f5f5; position: absolute; top: 0; border: 0; right: 0; z-index: 9999" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
 <div class="container main">
   <div class="row">
@@ -34,7 +34,7 @@
         <div class="card">
           <img class="card-img-top preview-img" src="./images/preview.png" alt="Preview">
           <div class="card-block">
-            <p class="card-text">這是一個把學校課表匯進行事曆的工具，有鑑於把課表手動輸入到行事曆實在有點慢，於是我們就做了這個工具。本工具產生的檔案格式，支援 iOS、Android、Mac 各平臺的行事曆。</p>
+            <p class="card-text">這是一個把學校課表匯進行事曆的工具，有鑑於把課表手動輸入到行事曆實在有點慢，於是我們就做了這個工具。本工具產生的日曆檔案，支援 iOS、Android、Mac 各平臺的行事曆。</p>
             <p>本工具有以下優點：</p>
             <ul>
               <li>不用另外裝軟體</li>
@@ -77,12 +77,12 @@
               <a class="nav-link active" data-toggle="tab" href="#ios" role="tab">iOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#google" role="tab">Google Calendar</a>
+              <a class="nav-link" data-toggle="tab" href="#google" role="tab">Google</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#macos" role="tab">macOS</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-item-desktop">
               <a class="nav-link" data-toggle="tab" href="#safari" role="tab">Safari</a>
             </li>
           </ul>
@@ -90,11 +90,11 @@
           <!-- Tab panes -->
           <div class="tab-content">
             <div class="tab-pane active" id="ios" role="tabpanel">
-              <p>用手機 Safari 開啟此網頁，依照步驟操作後，會跳出匯入畫面，如下圖。點「全部加入」即可，建議新增行事曆以方便整理</p>
+              <p>用 iPhone/iPad 的 Safari 開啟此網頁，依照步驟操作後，會跳轉畫面如下圖，點「全部加入」即可。建議新增行事曆以方便整理</p>
               <a href="./images/ios-import.png" target="_blank"><img src="./images/ios-import.png" alt="ios-import"></a>
             </div>
             <div class="tab-pane" id="google" role="tabpanel">
-              <p>如圖，點開「其它日曆」旁邊的倒三角選單，點「匯入日曆」，再選擇剛剛下載的 <code>calendar.ics</code> 檔案。</p>
+              <p>登入 <a href="https://calendar.google.com" target="_blank">Google 行事曆</a>，點開「其它日曆」旁邊的倒三角選單，點「匯入日曆」，再選擇剛剛下載的 <code>calendar.ics</code> 檔案。</p>
               <a href="./images/how0-android.jpg" target="_blank"><img src="./images/how0-android.jpg" alt="android-google-import"></a>
               <a href="./images/google-calendar-import.png" target="_blank"><img src="./images/google-calendar-import.png" alt="google-import"></a>
             </div>
