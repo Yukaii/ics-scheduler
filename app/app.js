@@ -7,6 +7,7 @@ $(document).ready(() => {
 		// prevent form submitting, we'll use ajax instead
 		e.preventDefault();
 
+		$('#alternative-download-link').addClass('hidden');
 		$('#ics-anchor button').attr('disabled', '').removeClass('btn-success').removeClass('btn-danger').text('請稍等');
 
 		// TODO: different school would have different regex
@@ -41,6 +42,7 @@ $(document).ready(() => {
 							var raw_url = data['files']['calendar.ics']['raw_url'];
 							$('#ics-anchor').attr('href', raw_url);
 							$('#ics-anchor button').addClass('btn-success').removeAttr('disabled').text('下載');
+							$('#alternative-download-link').removeClass('hidden').attr('href', raw_url);
 						}
 					);
 				}
