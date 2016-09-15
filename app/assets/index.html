@@ -24,39 +24,54 @@
   ga('send', 'pageview');
   </script>
 
+<a href="https://your-url" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#0275d8; color:#f5f5f5; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
 <div class="container main">
   <div class="row">
     <div class="col-xs-12 col-m-8">
       <div class="card card-block">
         <h3 class="card-title">NTUST<br/>課表行事曆製作工具<span class="semester-date">1051</span></h3>
         <div class="card">
-          <div class="card-header"><span class="octicon octicon-info"></span>這啥？</div>
+          <img class="card-img-top preview-img" src="./images/preview.png" alt="Preview">
           <div class="card-block">
-            <p>把學校課表匯進行事曆的工具，有鑒於把課表一個一個手動 key-in 到行事曆會死掉所以做了這個東西。支援 iOS、Android、Mac 以及絕大多數可匯入 .ics 格式的行事曆軟體。若有興趣可參考 <a href="https://tools.ietf.org/html/rfc5545">RFC 5545</a></p>
-            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="22"></iframe>
+            <p class="card-text">這是一個把學校課表匯進行事曆的工具，有鑑於把課表手動輸入到行事曆實在有點慢，於是我們就做了這個工具。本工具產生的檔案格式，支援 iOS、Android、Mac 各平臺的行事曆。</p>
+            <p>本工具有以下優點：</p>
+            <ul>
+              <li>不用另外裝軟體</li>
+              <li>修改方便</li>
+              <li>支援最好的線上行事曆服務 Google Calendar</li>
+            </ul>
+            <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=watch" allowtransparency="true" frameborder="0" scrolling="0" width="60" height="22"></iframe>
             <iframe src="https://ghbtns.com/github-btn.html?user=Yukaii&repo=ics-scheduler&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="55" height="22"></iframe>
           </div>
         </div>
         <hr>
         <form>
           <div class="form-group">
-            <p>1. 輸入您的所有課程代碼，以空白分隔。<br>進 <a href="https://stu255.ntust.edu.tw/ntust_stu/stu.aspx" target="_blank">學生資訊系統</a> 或 <a href="https://crosslink.tw" target="_blank">Crosslink</a> 把選課資料全部複製貼上來也可以。<a href="./images/how1.jpg">圖</a>。<a href="./images/how1-2.jpg">圖</a>。</p>
+            <h4>1. 貼上所有課程代碼，以空白分隔</h4>
+            <div class="card">
+              <div class="card-title">
+              </div>
+              <img class="card-img-top preview-img" src="./images/paste-example.png" alt="paste example">
+            </div>
 
-            <textarea class="form-control" id="raw-input-textarea" rows="7"></textarea>
+            <p>可以登入 <a href="https://stu255.ntust.edu.tw/ntust_stu/stu.aspx" target="_blank">學生資訊系統</a> 或 <a href="https://crosslink.tw" target="_blank">Crosslink</a> 把選課資料全部複製貼上來。<a href="./images/how1.jpg">圖</a>。<a href="./images/how1-2.jpg">圖</a>。</p>
+
+            <textarea class="form-control" id="raw-input-textarea" rows="7" placeholder="代碼請貼這裡" ></textarea>
 
           </div>
           <div class="form-group">
-            <p>2.</p>
+            <h4>2.</h4>
             <button type="submit" id="ics-generate" class="btn btn-primary btn-lg btn-block">按下去</button>
           </div>
         </form>
 
         <div class="form-group" id="download-group">
-          <p>3.</p>
+          <h4>3.</h4>
           <a id="ics-anchor" target="_blank" download="calendar.ics"><button class="btn btn-secondary btn-lg btn-block" disabled>先按上面那個</button></a>
         </div>
         <div class="form-group" id="instruction-group">
-          <p>4. 匯入行事曆</p>
+          <h4>4. 匯入行事曆</h4>
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" data-toggle="tab" href="#ios" role="tab">iOS</a>
@@ -84,13 +99,13 @@
               <a href="./images/google-calendar-import.png" target="_blank"><img src="./images/google-calendar-import.png" alt="google-import"></a>
             </div>
             <div class="tab-pane" id="macos" role="tabpanel">
-              <p>1. 如圖，先建立一個新的行事曆以方便管理課表：</p>
+              <p>1. 建立一個新的行事曆以方便管理課表：</p>
               <a href="./images/macos-new-calendar.png" target="_blank"><img src="./images/macos-new-calendar.png" alt="macos-new-calendar"></a>
-              <p>2. 然後點兩下剛剛下載的 <code>calendar.ics</code> 檔案，會跳出匯入視窗，選擇剛剛建立的行事曆匯入即可。</p>
+              <p>2. 點兩下剛剛下載的 <code>calendar.ics</code> 檔案，會跳出匯入視窗，選擇剛剛建立的行事曆匯入</p>
               <a href="./images/macos-import.png" target="_blank"><img src="./images/macos-import.png" alt="macos-import"></a>
             </div>
             <div class="tab-pane" id="safari" role="tabpanel">
-              <p>若是用 macOS 桌面版 Safari 瀏覽器使用此小工具，會直接在新分頁開啟 <code>calendar.ics</code> 檔案，需要手動另存新檔（⌘ + S 或 「檔案」「另存新檔」），再接續 macOS 步驟或是 Google Calendar 步驟完成匯入</p>
+              <p>若是用 macOS 桌面版 Safari 瀏覽器使用此工具，會直接在新分頁開啟 <code>calendar.ics</code> 檔案，需要手動另存新檔（⌘ + S 或 「檔案」「另存新檔」），再接續 macOS 步驟或是 Google Calendar 步驟完成匯入</p>
               <p>或是你直接換 Chrome 就可以正常下載了 😅 </p>
               <a href="./images/safari-import.png" target="_blank"><img src="./images/safari-import.png" alt="safari-import"></a>
             </div>
