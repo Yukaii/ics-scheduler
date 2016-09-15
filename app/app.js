@@ -7,7 +7,7 @@ $(document).ready(() => {
 		// prevent form submitting, we'll use ajax instead
 		e.preventDefault();
 
-		$('#ics-anchor button').removeClass('btn-danger').text('請稍等');
+		$('#ics-anchor button').attr('disabled', '').removeClass('btn-success').removeClass('btn-danger').text('請稍等');
 
 		// TODO: different school would have different regex
 		//       regex should be put in a seperate file
