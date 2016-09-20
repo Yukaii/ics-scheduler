@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+// usage: ./.travis/extract_json xxx.json
+var fs = require('fs');
+var path = require('path');
+var filename = process.argv[2];
+var courseDatas = JSON.parse(fs.readFileSync(filename, 'utf8'));
+
+var rmdir = function(dir) {
+	var list = fs.readdirSync(dir);
+	for(var i = 0; i < list.length; i++) {
+		var filename = path.join(dir, list[i]);
+		var stat = fs.statSync(filename);
+
+		if(filename == '.' || filename == '..') {
+			// pass these files
+		} else if(stat.isDirectory()) {
+			// rmdir recursively
+			rmdir(filename);
+		} else {
+			// rm fiilename
+			fs.unlinkSync(filename);
+		}
+	}
+	fs.rmdirSync(dir);
+};
+
+var directory = 'app/assets/data/' + path.basename(filename, '.json');
+if (fs.existsSync(directory)) { rmdir(directory); }
+
+fs.mkdirSync(directory);
+for (var data of courseDatas) {
+  if (typeof data.code !== 'undefined' && data.code.length > 0) {
+    fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data, null, 2));
+  }
+}
