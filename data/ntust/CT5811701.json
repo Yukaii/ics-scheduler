@@ -5,8 +5,18 @@
   "periods": [
     {
       "day": 2,
-      "time": "11:20-12:10",
-      "location": "IB-511-1"
+      "time": "09:10-10:00",
+      "location": "IB-512"
+    },
+    {
+      "day": 2,
+      "time": "10:20-11:10",
+      "location": "IB-512"
+    },
+    {
+      "day": 2,
+      "time": "12:20-13:10",
+      "location": "IB-512"
     }
   ]
 }
