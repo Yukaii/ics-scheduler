@@ -4,4 +4,5 @@ node_js:
 before_install:
   - npm install -g brunch
 script:
+  - ./.travis/crawl_job.sh
   - ./.travis/deploy.sh
