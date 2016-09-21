@@ -30,50 +30,13 @@ brunch watch --server
 brunch build --production
 ```
 
-### Run crawler
-
-爬蟲目前一概放在 `bin` 目錄底下。
-
-```bash
-./bin/ntust
-```
-
-會在 `app/assets/data/ntust` 底下儲存抓下的課程資料檔。格式範例為：
-
-```js
-/* 3N1102702.json */
-{
-  "code": "3N1102702",
-  "name": "東亞現代化城市發展",
-  "lecturer": "王恩美",
-  "periods": [
-    {
-      "day": 2, // 禮拜二
-      "time": "09:10-10:00",
-      "location": "本部 樸407"
-    },
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "本部 樸407"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "本部 樸407"
-    }
-  ]
-}
-```
-
 ## Deployment
 
 本專案使用 Travis CI 做 Continous Deployment，自動部屬到 GitHub Pages 上，可以參考 [PR#2](https://github.com/Yukaii/ics-scheduler/pull/2)。
 
 ## Contribution
 
-* 爬蟲
-* 課程 JSON 包
+see Wiki [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
 
 ## License
 
