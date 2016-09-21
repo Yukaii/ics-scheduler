@@ -1,4 +1,4 @@
-# 課程行事曆產生工具
+# 課程行事曆製作工具
 
 [![Build Status](https://travis-ci.org/Yukaii/ics-scheduler.svg?branch=master)](https://travis-ci.org/Yukaii/ics-scheduler)
 
