@@ -141,6 +141,17 @@ request(
 				};
 			});
 
-			fs.writeFileSync(ORGANIZATION_CODE + '.json', JSON.stringify(courseDatas, null, 2));
+			for (var i = 0; i < courseDatas.length; i++) {
+				if (courseDatas[i].code.length == 0 &&
+				    courseDatas[i].name.length == 0 &&
+						courseDatas[i].periods.length > 0) {
+					// set previous item
+					courseDatas[i-1].periods = [...courseDatas[i-1].periods, ...courseDatas[i].periods];
+				}
+			}
+
+			fs.writeFileSync(ORGANIZATION_CODE + '.json', JSON.stringify(courseDatas.filter(data => {
+				return data.name.length > 0;
+			}), null, 2));
 		});
 	});
