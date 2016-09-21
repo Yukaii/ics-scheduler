@@ -1,22 +1,22 @@
 {
-  "code": "EN5706791",
-  "name": "工業應用熱傳學",
-  "lecturer": "許清閔",
+  "code": "3T6081701",
+  "name": "固定收益證券與其衍生商品",
+  "lecturer": "李賢源",
   "periods": [
     {
       "day": 2,
       "time": "13:20-14:10",
-      "location": "IB-507"
+      "location": "管二206"
     },
     {
       "day": 2,
       "time": "14:20-15:10",
-      "location": "IB-507"
+      "location": "管二206"
     },
     {
       "day": 2,
       "time": "15:30-16:20",
-      "location": "IB-507"
+      "location": "管二206"
     }
   ]
 }

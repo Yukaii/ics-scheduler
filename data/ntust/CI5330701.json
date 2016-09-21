@@ -1,0 +1,157 @@
+{
+  "code": "CI5330701",
+  "name": "應用色彩科學",
+  "lecturer": "羅  明",
+  "periods": [
+    {
+      "day": 6,
+      "time": "08:10-09:00",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "09:10-10:00",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "10:20-11:10",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "11:20-12:10",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "12:20-13:10",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "13:20-14:10",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "14:20-15:10",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "15:30-16:20",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "16:30-17:20",
+      "location": "EE-311"
+    },
+    {
+      "day": 6,
+      "time": "17:30-18:20",
+      "location": "EE-311"
+    },
+    {
+      "day": 1,
+      "time": "17:30-18:20",
+      "location": "IB-610"
+    },
+    {
+      "day": 1,
+      "time": "18:25-19:15",
+      "location": "IB-610"
+    },
+    {
+      "day": 1,
+      "time": "19:20-20:10",
+      "location": "IB-610"
+    },
+    {
+      "day": 1,
+      "time": "20:10-21:05",
+      "location": "IB-610"
+    },
+    {
+      "day": 2,
+      "time": "17:30-18:20",
+      "location": "IB-610"
+    },
+    {
+      "day": 2,
+      "time": "18:25-19:15",
+      "location": "IB-610"
+    },
+    {
+      "day": 2,
+      "time": "19:20-20:10",
+      "location": "IB-610"
+    },
+    {
+      "day": 2,
+      "time": "20:10-21:05",
+      "location": "IB-610"
+    },
+    {
+      "day": 3,
+      "time": "17:30-18:20",
+      "location": "IB-610"
+    },
+    {
+      "day": 3,
+      "time": "18:25-19:15",
+      "location": "IB-610"
+    },
+    {
+      "day": 3,
+      "time": "19:20-20:10",
+      "location": "IB-610"
+    },
+    {
+      "day": 3,
+      "time": "20:10-21:05",
+      "location": "IB-610"
+    },
+    {
+      "day": 4,
+      "time": "17:30-18:20",
+      "location": "IB-610"
+    },
+    {
+      "day": 4,
+      "time": "18:25-19:15",
+      "location": "IB-610"
+    },
+    {
+      "day": 4,
+      "time": "19:20-20:10",
+      "location": "IB-610"
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
+      "location": "IB-610"
+    },
+    {
+      "day": 5,
+      "time": "17:30-18:20",
+      "location": "IB-610"
+    },
+    {
+      "day": 5,
+      "time": "18:25-19:15",
+      "location": "IB-610"
+    },
+    {
+      "day": 5,
+      "time": "19:20-20:10",
+      "location": "IB-610"
+    },
+    {
+      "day": 5,
+      "time": "20:10-21:05",
+      "location": "IB-610"
+    }
+  ]
+}
