@@ -23,7 +23,7 @@ for file in "./bin/*"
 do
   org_code=`echo $file | sed 's/\.\/bin\///g'`
 
-  if test `find "$DATA_DIR/$org_code.gz" -mtime +3`
+  if [ ! -f $DATA_DIR/$org_code.gz ] || test `find "$DATA_DIR/$org_code.gz" -mtime +3`
   then
     echo "$org_code data is old enough, run for updates"
     $file
