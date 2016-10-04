@@ -1,0 +1,132 @@
+{
+  "code": "IM5300701",
+  "name": "高等生產管理",
+  "lecturer": "Andi Cakrav",
+  "periods": [
+    {
+      "day": 1,
+      "time": "18:25-19:15",
+      "location": "TR-517"
+    },
+    {
+      "day": 1,
+      "time": "19:20-20:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 1,
+      "time": "20:10-21:05",
+      "location": "TR-517"
+    },
+    {
+      "day": 1,
+      "time": "21:10-22:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 2,
+      "time": "18:25-19:15",
+      "location": "TR-517"
+    },
+    {
+      "day": 2,
+      "time": "19:20-20:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 2,
+      "time": "20:10-21:05",
+      "location": "TR-517"
+    },
+    {
+      "day": 2,
+      "time": "21:10-22:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 3,
+      "time": "18:25-19:15",
+      "location": "TR-517"
+    },
+    {
+      "day": 3,
+      "time": "19:20-20:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 3,
+      "time": "20:10-21:05",
+      "location": "TR-517"
+    },
+    {
+      "day": 3,
+      "time": "21:10-22:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 4,
+      "time": "18:25-19:15",
+      "location": "TR-517"
+    },
+    {
+      "day": 4,
+      "time": "19:20-20:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
+      "location": "TR-517"
+    },
+    {
+      "day": 4,
+      "time": "21:10-22:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 5,
+      "time": "18:25-19:15",
+      "location": "TR-517"
+    },
+    {
+      "day": 5,
+      "time": "19:20-20:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 5,
+      "time": "20:10-21:05",
+      "location": "TR-517"
+    },
+    {
+      "day": 5,
+      "time": "21:10-22:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 6,
+      "time": "09:10-10:00",
+      "location": "TR-517"
+    },
+    {
+      "day": 6,
+      "time": "10:20-11:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 6,
+      "time": "11:20-12:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 6,
+      "time": "13:20-14:10",
+      "location": "TR-517"
+    },
+    {
+      "day": 6,
+      "time": "14:20-15:10",
+      "location": "TR-517"
+    }
+  ]
+}

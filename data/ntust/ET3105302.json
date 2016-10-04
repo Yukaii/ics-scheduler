@@ -4,19 +4,19 @@
   "lecturer": "鄭瑞光",
   "periods": [
     {
-      "day": 4,
-      "time": "13:20-14:10",
-      "location": "IB-304"
-    },
-    {
       "day": 2,
       "time": "10:20-11:10",
-      "location": "IB-501"
+      "location": "IB-303"
     },
     {
       "day": 2,
       "time": "11:20-12:10",
-      "location": "IB-501"
+      "location": "IB-303"
+    },
+    {
+      "day": 4,
+      "time": "13:20-14:10",
+      "location": "IB-304"
     }
   ]
 }

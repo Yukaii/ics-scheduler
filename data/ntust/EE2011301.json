@@ -4,19 +4,19 @@
   "lecturer": "張立中",
   "periods": [
     {
-      "day": 4,
-      "time": "09:10-10:00",
-      "location": "IB-502"
-    },
-    {
       "day": 3,
       "time": "10:20-11:10",
-      "location": "IB-503"
+      "location": "IB-501"
     },
     {
       "day": 3,
       "time": "11:20-12:10",
-      "location": "IB-503"
+      "location": "IB-501"
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": "IB-502"
     }
   ]
 }
