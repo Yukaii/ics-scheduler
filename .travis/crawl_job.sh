@@ -23,9 +23,9 @@ for file in "./bin/*"
 do
   org_code=`echo $file | sed 's/\.\/bin\///g'`
 
-  if [ ! -f $DATA_DIR/$org_code.gz ] || test `find "$DATA_DIR/$org_code.gz" -mtime +3`
+  if [ ! -f $DATA_DIR/$org_code.gz ]
   then
-    echo "$org_code data is old enough, run for updates"
+    echo "$org_code data not found, run crawler"
     $file
     gzip < $.json > $DATA_DIR/$org_code.gz
   else
