@@ -23,8 +23,9 @@ for file in "./bin/*"
 do
   org_code=`echo $file | sed 's/\.\/bin\///g'`
 
+  echo "run $org_code crawler..."
   $file
-  gzip < $.json > $DATA_DIR/$org_code.gz
+  gzip < $org_code.json > $DATA_DIR/$org_code.gz
 done
 
 cd $DATA_DIR
