@@ -23,14 +23,8 @@ for file in "./bin/*"
 do
   org_code=`echo $file | sed 's/\.\/bin\///g'`
 
-  if [ ! -f $DATA_DIR/$org_code.gz ]
-  then
-    echo "$org_code data not found, run crawler"
-    $file
-    gzip < $.json > $DATA_DIR/$org_code.gz
-  else
-    echo "There is no need to run $org_code crawler"
-  fi
+  $file
+  gzip < $.json > $DATA_DIR/$org_code.gz
 done
 
 cd $DATA_DIR
