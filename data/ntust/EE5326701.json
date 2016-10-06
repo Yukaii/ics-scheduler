@@ -1,0 +1,52 @@
+{
+  "code": "EE5326701",
+  "name": "以IMU之慣性導航系統",
+  "lecturer": "吳勇為",
+  "periods": [
+    {
+      "day": 2,
+      "time": "15:30-16:20",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "16:30-17:20",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "17:30-18:20",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "15:30-16:20",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "16:30-17:20",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "17:30-18:20",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "15:30-16:20",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "16:30-17:20",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "17:30-18:20",
+      "location": ""
+    }
+  ]
+}
