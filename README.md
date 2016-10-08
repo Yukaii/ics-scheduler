@@ -4,13 +4,18 @@
 
 ![preview](./docs/images/screenshot-1.png)
 
-一個把學校課表轉成 ics 格式(iCalendar, [RFC 5545](https://tools.ietf.org/html/rfc5545)) 的工具 :heart:。
+一個把學校課表轉成 ics 格式(iCalendar, [RFC 5545](https://tools.ietf.org/html/rfc5545)) 的工具 :heart:。支援各平臺行事曆軟體。
 
-改寫自 Neson 有四年歷史（！）的專案 [NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)，為了用 GitHub Pages 免費部屬，由原本的 PHP 架構改用客端 JavaScript 重新寫過。去掉資料庫，取而代之是[純粹 JSON 檔案](https://github.com/Yukaii/ics-scheduler/tree/gh-pages)的資料儲存。
+技術方面，本專案前端採用 Bootstrap v4 alpha 以及 jQuery 3。雖然已經 2016，不過做架構簡單的東西，這樣就夠了。
 
-前端使用 Bootstrap v4 alpha 以及 jQuery 3。雖然已經 2016，不過做架構簡單的東西，這樣就夠了 :sweat_smile:
+However, [it's not the future](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) :joy:
 
-目前支援 NTUST。
+
+## 支援學校列表
+
+* 臺灣科技大學
+
+更多請[自行貢獻](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)或是拍打餵食專案作者 :sweat_smile:
 
 ## Development
 
@@ -40,6 +45,13 @@ brunch build --production
 ## Contribution
 
 參照本專案 Wiki 的 [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
+
+## Credits
+
+本專案改寫自 [Neson](https://github.com/Neson) 四年前的專案 [NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)。為了用 GitHub Pages 免費部屬，由 PHP 改為客端 JavaScript 重寫。去掉資料庫，取而代之是純粹的 JSON 檔案儲存。
+
+更多實作細節可參考本專案 wiki [Architecture](https://github.com/Yukaii/ics-scheduler/wiki/Architecture)
+ 部分。
 
 ## License
 
