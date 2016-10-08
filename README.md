@@ -32,11 +32,14 @@ brunch build --production
 
 ## Deployment
 
-本專案使用 Travis CI 做 Continous Deployment，自動部屬到 GitHub Pages 上，可以參考 [PR#2](https://github.com/Yukaii/ics-scheduler/pull/2)。
+本專案使用 Travis CI 做 Continous Deployment，自動部屬到 GitHub Pages 上。更多內容請參考本專案 Wiki
+
+[https://github.com/Yukaii/ics-scheduler/wiki/Deployment](https://github.com/Yukaii/ics-scheduler/wiki/Deployment
+)
 
 ## Contribution
 
-see Wiki [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
+參照本專案 Wiki 的 [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
 
 ## License
 
