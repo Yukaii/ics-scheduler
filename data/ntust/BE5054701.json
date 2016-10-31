@@ -1,22 +1,22 @@
 {
   "code": "BE5054701",
   "name": "奈米科技導論",
-  "lecturer": "HOSSEIN",
+  "lecturer": "白孟宜",
   "periods": [
     {
       "day": 5,
       "time": "13:20-14:10",
-      "location": "IB-508"
+      "location": "TR-511"
     },
     {
       "day": 5,
       "time": "14:20-15:10",
-      "location": "IB-508"
+      "location": "TR-511"
     },
     {
       "day": 5,
       "time": "15:30-16:20",
-      "location": "IB-508"
+      "location": "TR-511"
     }
   ]
 }
