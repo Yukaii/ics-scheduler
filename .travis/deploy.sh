@@ -56,7 +56,7 @@ doCompile
 # Now let's go have some fun with the cloned repo
 cd $OUTPUT_FOLDER
 git config user.name "Travis CI"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.email "travis-ci@w3.org"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if [ -n "$(git status --porcelain)" ]; then
