@@ -31,7 +31,7 @@ done
 cd $DATA_DIR
 
 git config user.name "Travis Crawler Runner"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.email "travis-ci@w3.org"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if [ -n "$(git status --porcelain)" ]; then
