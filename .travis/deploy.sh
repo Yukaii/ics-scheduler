@@ -6,7 +6,7 @@ TARGET_BRANCH="gh-pages"
 OUTPUT_FOLDER="public"
 
 function doCompile {
-  npm run prod
+  npm run build
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
