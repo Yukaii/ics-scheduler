@@ -54,12 +54,12 @@ $(document).ready(() => {
 		});
 	});
 
-	$('#school-dropdown .dropdown-menu a').click(function() {
+	$('#school-dropdown .dropdown-menu a').click(function(e) {
 		e.preventDefault();
 		$('#school-value').text($(this).attr('value').toUpperCase()).attr('value', $(this).attr('value'));
 	});
 
-	$('#semester-dropdown .dropdown-menu a').click(function() {
+	$('#semester-dropdown .dropdown-menu a').click(function(e) {
 		e.preventDefault();
 		const [year, term] = $(this).attr('value').split('-');
 		$('#semester-value').text(`${year-1911}${term}`).attr('value', $(this).attr('value'));
