@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "prod": "brunch build --production"
+    "build": "brunch build --production"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.4",
