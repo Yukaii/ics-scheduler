@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
+YEAR=2016
+TERM=1
+
 SOURCE_BRANCH="production"
 TARGET_BRANCH="gh-pages"
 OUTPUT_FOLDER="public"
@@ -21,16 +24,16 @@ if [[ "$TRAVIS_PULL_REQUEST" != "false" || "$TRAVIS_BRANCH" == "$SOURCE_BRANCH" 
   REPO_BASE_URL=`git config remote.origin.url | sed 's/\.git//g'`
   while IFS= read -r org_code
   do
-    RAW_DATA_URL="$REPO_BASE_URL/raw/data/$org_code.gz"
+    RAW_DATA_URL="$REPO_BASE_URL/raw/data/$YEAR-$TERM-$org_code.gz"
 
     echo "downloading $org_code data from $RAW_DATA_URL"
-    curl -L $RAW_DATA_URL --output "$org_code.gz"
+    curl -L $RAW_DATA_URL --output "$YEAR-$TERM-$org_code.gz"
 
     echo "unzipping..."
-    gzip -d < "$org_code.gz" > "$org_code.json"
+    gzip -d < "$YEAR-$TERM-$org_code.gz" > "$YEAR-$TERM-$org_code.json"
 
     echo "extracting..."
-    ./.travis/extract_json "$org_code.json"
+    ./.travis/extract_json "$YEAR-$TERM-$org_code.json"
   done < "support_organizations.txt"
 fi
 
