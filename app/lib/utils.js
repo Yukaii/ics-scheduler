@@ -28,7 +28,7 @@ DTEND;TZID=UTC:${dtendString}
 RRULE:FREQ=WEEKLY;COUNT=18;BYDAY=${DAY[nextDay(dtstart, period.day).getDay()]}
 SUMMARY:${course_data.name}
 LOCATION:${period.location}
-DESCRIPTION:授課教師:${course_data.lecturer}
+DESCRIPTION:授課教師:${course_data.lecturer}; 課程代碼:${course_data.code}
 END:VEVENT`;
 
 		}).join(`\n`);
