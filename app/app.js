@@ -22,6 +22,7 @@ $(document).ready(() => {
 
 		const schoolCode = $('#school-value').attr('value');
 		const semesterValue = $('#semester-value').attr('value');
+		const [year, term] = semesterValue.split('-');
 
 		var done = 0; // jquery ajax parallel job workaround
 		var jobCount = course_codes.length;
@@ -32,7 +33,7 @@ $(document).ready(() => {
 				else { jobCount -= 1; } // error occur
 
 				if (done == jobCount) {
-					var icsData = icsGenerate(course_datas);
+					var icsData = icsGenerate(course_datas, year, term);
 					$.post(
 						'https://api.github.com/gists',
 						JSON.stringify({
@@ -54,10 +55,12 @@ $(document).ready(() => {
 	});
 
 	$('#school-dropdown .dropdown-menu a').click(function() {
+		e.preventDefault();
 		$('#school-value').text($(this).attr('value').toUpperCase()).attr('value', $(this).attr('value'));
 	});
 
 	$('#semester-dropdown .dropdown-menu a').click(function() {
+		e.preventDefault();
 		const [year, term] = $(this).attr('value').split('-');
 		$('#semester-value').text(`${year-1911}${term}`).attr('value', $(this).attr('value'));
 	});

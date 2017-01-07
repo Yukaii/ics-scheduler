@@ -1,4 +1,7 @@
-var semesterDateString = '2016-09-12';
+var semesterDate = {
+	'2016-1': '2016-09-12',
+	'2016-2': '2017-02-13'
+};
 
 // from http://stackoverflow.com/a/27336600/4147906
 function nextDay(d, dow){
@@ -6,7 +9,7 @@ function nextDay(d, dow){
 	return d;
 }
 
-export function icsGenerate(course_datas){
+export function icsGenerate(course_datas, year, term){
 	const DAY = {
 		1: 'MO',
 		2: 'TU',
@@ -19,7 +22,7 @@ export function icsGenerate(course_datas){
 
 	var eventString = course_datas.map((course_data) => {
 		return Array.isArray(course_data.periods) && course_data.periods.map(period => {
-			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDateString}T${time}:00+08:00`), period.day));
+			var [dtstart, dtend] = period.time.split('-').map(time => nextDay(new Date(`${semesterDate[`${year}-${term}`]}T${time}:00+08:00`), period.day));
 			var [dtstartString, dtendString] = [dtstart, dtend].map(time => time.toISOString().slice(0, 19).replace(/[-:]/g, ''));
 
 			return `BEGIN:VEVENT
