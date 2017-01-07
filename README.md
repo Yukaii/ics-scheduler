@@ -46,6 +46,16 @@ brunch build --production
 
 參照本專案 Wiki 的 [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
 
+## Troubleshooting
+
+### ENFILE: file table overflow
+
+Reference to this issue: https://github.com/karma-runner/karma/issues/1979, run
+
+```bash
+sudo launchctl limit maxfiles 16384 16384 && ulimit -n 16384
+```
+
 ## Credits
 
 本專案改寫自 [Neson](https://github.com/Neson) 四年前的專案 [NTUST-ics-Class-Schedule](https://github.com/Neson/NTUST-ics-Class-Schedule)。為了用 GitHub Pages 免費部屬，由 PHP 改為客端 JavaScript 重寫。去掉資料庫，取而代之是純粹的 JSON 檔案儲存。
