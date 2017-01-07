@@ -1,0 +1,22 @@
+{
+  "code": "BA1300001",
+  "name": "經濟學",
+  "lecturer": "劉邦典",
+  "periods": [
+    {
+      "day": 2,
+      "time": "13:20-14:10",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "14:20-15:10",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "15:30-16:20",
+      "location": ""
+    }
+  ]
+}

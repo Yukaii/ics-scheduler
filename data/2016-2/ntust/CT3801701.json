@@ -1,0 +1,22 @@
+{
+  "code": "CT3801701",
+  "name": "水文學",
+  "lecturer": "張守陽",
+  "periods": [
+    {
+      "day": 3,
+      "time": "18:25-19:15",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "19:20-20:10",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "20:10-21:05",
+      "location": ""
+    }
+  ]
+}

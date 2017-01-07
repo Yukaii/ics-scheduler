@@ -1,0 +1,27 @@
+{
+  "code": "ME2103304",
+  "name": "靜力學",
+  "lecturer": "謝宏麟",
+  "periods": [
+    {
+      "day": 3,
+      "time": "13:20-14:10",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "14:20-15:10",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "13:20-14:10",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "14:20-15:10",
+      "location": ""
+    }
+  ]
+}

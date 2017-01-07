@@ -1,0 +1,22 @@
+{
+  "code": "CS2007301",
+  "name": "電子電路",
+  "lecturer": "未  定",
+  "periods": [
+    {
+      "day": 1,
+      "time": "13:20-14:10",
+      "location": ""
+    },
+    {
+      "day": 1,
+      "time": "14:20-15:10",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": ""
+    }
+  ]
+}

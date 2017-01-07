@@ -1,0 +1,17 @@
+{
+  "code": "GE3401301",
+  "name": "憲法",
+  "lecturer": "劉公昭",
+  "periods": [
+    {
+      "day": 1,
+      "time": "15:30-16:20",
+      "location": ""
+    },
+    {
+      "day": 1,
+      "time": "16:30-17:20",
+      "location": ""
+    }
+  ]
+}

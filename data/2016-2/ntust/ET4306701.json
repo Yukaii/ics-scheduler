@@ -1,0 +1,22 @@
+{
+  "code": "ET4306701",
+  "name": "電信工程",
+  "lecturer": "蔡堆",
+  "periods": [
+    {
+      "day": 2,
+      "time": "18:25-19:15",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "19:20-20:10",
+      "location": ""
+    },
+    {
+      "day": 2,
+      "time": "20:10-21:05",
+      "location": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "code": "CC1003316",
+  "name": "英文字彙與閱讀(二)",
+  "lecturer": "Aaron",
+  "periods": [
+    {
+      "day": 3,
+      "time": "10:20-11:10",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "11:20-12:10",
+      "location": ""
+    }
+  ]
+}

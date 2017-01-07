@@ -1,0 +1,22 @@
+{
+  "code": "CT3200301",
+  "name": "結構學",
+  "lecturer": "邱建國",
+  "periods": [
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": ""
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "08:10-09:00",
+      "location": ""
+    }
+  ]
+}

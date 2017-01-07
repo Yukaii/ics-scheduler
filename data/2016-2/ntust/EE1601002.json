@@ -1,0 +1,32 @@
+{
+  "code": "EE1601002",
+  "name": "微積分",
+  "lecturer": "郭政謙",
+  "periods": [
+    {
+      "day": 1,
+      "time": "10:20-11:10",
+      "location": ""
+    },
+    {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "16:30-17:20",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "17:30-18:20",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "18:25-19:15",
+      "location": ""
+    }
+  ]
+}

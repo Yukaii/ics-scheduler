@@ -1,0 +1,27 @@
+{
+  "code": "TX1605002",
+  "name": "化學",
+  "lecturer": "葉樹開",
+  "periods": [
+    {
+      "day": 1,
+      "time": "09:10-10:00",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "12:20-13:10",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "09:10-10:00",
+      "location": ""
+    },
+    {
+      "day": 3,
+      "time": "15:30-16:20",
+      "location": ""
+    }
+  ]
+}

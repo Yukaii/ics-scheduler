@@ -1,0 +1,17 @@
+{
+  "code": "TCG050301",
+  "name": "藝術治療",
+  "lecturer": "楊佳蓉",
+  "periods": [
+    {
+      "day": 5,
+      "time": "13:20-14:10",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "14:20-15:10",
+      "location": ""
+    }
+  ]
+}

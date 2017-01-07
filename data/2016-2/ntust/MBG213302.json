@@ -1,0 +1,17 @@
+{
+  "code": "MBG213302",
+  "name": "傳播技能",
+  "lecturer": "胡家紋",
+  "periods": [
+    {
+      "day": 5,
+      "time": "15:30-16:20",
+      "location": ""
+    },
+    {
+      "day": 5,
+      "time": "16:30-17:20",
+      "location": ""
+    }
+  ]
+}
