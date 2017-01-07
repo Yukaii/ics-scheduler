@@ -51,7 +51,8 @@ git checkout $TARGET_BRANCH || git checkout -b $TARGET_BRANCH origin/$TARGET_BRA
 cd ..
 
 # Clean out existing contents
-rm -rf $OUTPUT_FOLDER/**/* || exit 0
+rm -rf $OUTPUT_FOLDER/*.js || exit 0
+rm -rf $OUTPUT_FOLDER/*.css || exit 0
 
 # Run our compile script
 doCompile
