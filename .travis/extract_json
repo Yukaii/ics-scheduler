@@ -6,6 +6,13 @@ var path = require('path');
 var filename = process.argv[2];
 var courseDatas = JSON.parse(fs.readFileSync(filename, 'utf8'));
 
+// filename looks like: 2016-1-ntust.json
+var matchData = filename.match(/(\d+)\-(\d+)-(.+)\.json$/);
+
+var year = matchData[1];
+var term = matchData[2];
+var school = matchData[3];
+
 var rmdir = function(dir) {
 	var list = fs.readdirSync(dir);
 	for(var i = 0; i < list.length; i++) {
@@ -25,7 +32,8 @@ var rmdir = function(dir) {
 	fs.rmdirSync(dir);
 };
 
-var directory = 'app/assets/data/' + path.basename(filename, '.json');
+var directory = 'app/assets/data/' + year + '-' + term + '/' + school;
+if (!fs.existsSync('app/assets/data/' + year + '-' + term)) { fs.mkdirSync('app/assets/data/' + year + '-' + term); }
 if (fs.existsSync(directory)) { rmdir(directory); }
 
 fs.mkdirSync(directory);
