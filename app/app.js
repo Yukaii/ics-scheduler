@@ -20,11 +20,14 @@ $(document).ready(() => {
 			return;
 		}
 
+		const schoolCode = $('#school-value').attr('value');
+		const semesterValue = $('#semester-value').attr('value');
+
 		var done = 0; // jquery ajax parallel job workaround
 		var jobCount = course_codes.length;
 
 		course_codes.forEach(code => {
-			$.getJSON(`./data/ntust/${code}.json`, json => {
+			$.getJSON(`./data/${semesterValue}/${schoolCode}/${code}.json`, json => {
 				if (typeof json !== 'undefined') { course_datas = [...course_datas, json]; done += 1; }
 				else { jobCount -= 1; } // error occur
 
@@ -48,5 +51,14 @@ $(document).ready(() => {
 				}
 			});
 		});
+	});
+
+	$('#school-dropdown .dropdown-menu a').click(function() {
+		$('#school-value').text($(this).attr('value').toUpperCase()).attr('value', $(this).attr('value'));
+	});
+
+	$('#semester-dropdown .dropdown-menu a').click(function() {
+		const [year, term] = $(this).attr('value').split('-');
+		$('#semester-value').text(`${year-1911}${term}`).attr('value', $(this).attr('value'));
 	});
 });
