@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
+YEAR=2016
+TERM=1
+
 if [ "$TRAVIS_BRANCH" != "data-updates" ]; then
     echo "on $TRAVIS_BRANCH branch, would not trigger crawler run"
     exit 0
@@ -24,8 +27,8 @@ do
   org_code=`echo $file | sed 's/\.\/bin\///g'`
 
   echo "run $org_code crawler..."
-  $file
-  gzip < $org_code.json > $DATA_DIR/$org_code.gz
+  $file $YEAR $TERM
+  gzip < $YEAR-$TERM-$org_code.json > $DATA_DIR/$YEAR-$TERM-$org_code.gz
 done
 
 cd $DATA_DIR

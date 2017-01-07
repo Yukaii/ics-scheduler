@@ -5,8 +5,8 @@ var request = require('request').defaults({
 });
 var fs = require('fs');
 
-var YEAR = 2016;
-var TERM = 1;
+var YEAR = process.argv[2] && parseInt(process.argv[2]) || 2016;
+var TERM = process.argv[3] && parseInt(process.argv[3]) || 1;
 var ORGANIZATION_CODE = 'ntust';
 
 var DAYS = {
@@ -150,7 +150,7 @@ request(
 				}
 			}
 
-			fs.writeFileSync(ORGANIZATION_CODE + '.json', JSON.stringify(courseDatas.filter(data => {
+			fs.writeFileSync(YEAR + '-' + TERM + '-' + ORGANIZATION_CODE + '.json', JSON.stringify(courseDatas.filter(data => {
 				return data.name.length > 0;
 			}), null, 2));
 		});
