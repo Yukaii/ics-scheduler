@@ -4,6 +4,11 @@
   "lecturer": "許丁友",
   "periods": [
     {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": ""
+    },
+    {
       "day": 3,
       "time": "15:30-16:20",
       "location": ""
@@ -16,11 +21,6 @@
     {
       "day": 4,
       "time": "08:10-09:00",
-      "location": ""
-    },
-    {
-      "day": 4,
-      "time": "09:10-10:00",
       "location": ""
     }
   ]

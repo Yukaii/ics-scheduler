@@ -4,6 +4,11 @@
   "lecturer": "胡宗和",
   "periods": [
     {
+      "day": 1,
+      "time": "11:20-12:10",
+      "location": ""
+    },
+    {
       "day": 3,
       "time": "13:20-14:10",
       "location": ""
@@ -11,11 +16,6 @@
     {
       "day": 3,
       "time": "14:20-15:10",
-      "location": ""
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
       "location": ""
     }
   ]
