@@ -4,17 +4,17 @@
   "lecturer": "彭盛裕",
   "periods": [
     {
+      "day": 2,
+      "time": "17:30-18:20",
+      "location": ""
+    },
+    {
       "day": 1,
       "time": "16:30-17:20",
       "location": ""
     },
     {
       "day": 1,
-      "time": "17:30-18:20",
-      "location": ""
-    },
-    {
-      "day": 2,
       "time": "17:30-18:20",
       "location": ""
     }

@@ -1,23 +1,8 @@
 {
-  "code": "TX5612701",
-  "name": "先進奈米材料特論",
-  "lecturer": "More Mahen",
+  "code": "ME5716701",
+  "name": "紊流模擬導論",
+  "lecturer": "Yuki Minamo",
   "periods": [
-    {
-      "day": 7,
-      "time": "18:25-19:15",
-      "location": ""
-    },
-    {
-      "day": 7,
-      "time": "19:20-20:10",
-      "location": ""
-    },
-    {
-      "day": 7,
-      "time": "20:10-21:05",
-      "location": ""
-    },
     {
       "day": 1,
       "time": "18:25-19:15",
