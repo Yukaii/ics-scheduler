@@ -4,11 +4,6 @@
   "lecturer": "邱建國",
   "periods": [
     {
-      "day": 1,
-      "time": "08:10-09:00",
-      "location": ""
-    },
-    {
       "day": 5,
       "time": "09:10-10:00",
       "location": ""
@@ -16,6 +11,11 @@
     {
       "day": 5,
       "time": "10:20-11:10",
+      "location": ""
+    },
+    {
+      "day": 1,
+      "time": "08:10-09:00",
       "location": ""
     }
   ]
