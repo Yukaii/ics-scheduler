@@ -6,22 +6,22 @@
     {
       "day": 1,
       "time": "13:20-14:10",
-      "location": ""
+      "location": "TR-410"
     },
     {
       "day": 1,
       "time": "14:20-15:10",
-      "location": ""
+      "location": "TR-410"
     },
     {
       "day": 3,
       "time": "08:10-09:00",
-      "location": ""
+      "location": "TR-410"
     },
     {
       "day": 3,
       "time": "09:10-10:00",
-      "location": ""
+      "location": "TR-410"
     }
   ]
 }

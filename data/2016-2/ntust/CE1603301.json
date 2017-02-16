@@ -6,27 +6,27 @@
     {
       "day": 4,
       "time": "08:10-09:00",
-      "location": ""
+      "location": "E1-306"
     },
     {
       "day": 2,
       "time": "16:30-17:20",
-      "location": ""
+      "location": "TR-514"
     },
     {
       "day": 5,
       "time": "13:20-14:10",
-      "location": ""
+      "location": "TR-514"
     },
     {
       "day": 5,
       "time": "14:20-15:10",
-      "location": ""
+      "location": "TR-514"
     },
     {
       "day": 5,
       "time": "15:30-16:20",
-      "location": ""
+      "location": "TR-514"
     }
   ]
 }

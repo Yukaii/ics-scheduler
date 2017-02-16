@@ -1,22 +1,22 @@
 {
   "code": "CH3804302",
   "name": "化學技術實習(四)",
-  "lecturer": "未  定",
+  "lecturer": "黃炳照",
   "periods": [
     {
       "day": 1,
       "time": "09:10-10:00",
-      "location": ""
+      "location": "E2-302"
     },
     {
       "day": 1,
       "time": "10:20-11:10",
-      "location": ""
+      "location": "E2-302"
     },
     {
       "day": 1,
       "time": "11:20-12:10",
-      "location": ""
+      "location": "E2-302"
     }
   ]
 }

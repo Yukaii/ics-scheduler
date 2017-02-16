@@ -4,14 +4,14 @@
   "lecturer": "麥皓婷",
   "periods": [
     {
-      "day": 2,
-      "time": "18:25-19:15",
-      "location": ""
+      "day": 4,
+      "time": "15:30-16:20",
+      "location": "IB-607"
     },
     {
-      "day": 2,
-      "time": "19:20-20:10",
-      "location": ""
+      "day": 4,
+      "time": "16:30-17:20",
+      "location": "IB-607"
     }
   ]
 }

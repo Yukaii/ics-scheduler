@@ -1,22 +1,22 @@
 {
   "code": "HC1705001",
   "name": "化學實習",
-  "lecturer": "林析右",
+  "lecturer": "劉志成",
   "periods": [
     {
       "day": 3,
       "time": "12:20-13:10",
-      "location": ""
+      "location": "T2-412"
     },
     {
       "day": 3,
       "time": "13:20-14:10",
-      "location": ""
+      "location": "T2-412"
     },
     {
       "day": 3,
       "time": "14:20-15:10",
-      "location": ""
+      "location": "T2-412"
     }
   ]
 }
