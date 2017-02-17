@@ -35,6 +35,16 @@ brunch watch --server
 brunch build --production
 ```
 
+### Troubleshooting
+
+#### ENFILE: file table overflow
+
+Reference to this issue: https://github.com/karma-runner/karma/issues/1979, run
+
+```bash
+sudo launchctl limit maxfiles 16384 16384 && ulimit -n 16384
+```
+
 ## Deployment
 
 本專案使用 Travis CI 做 Continous Deployment，自動部屬到 GitHub Pages 上。更多內容請參考本專案 Wiki
@@ -45,16 +55,6 @@ brunch build --production
 ## Contribution
 
 參照本專案 Wiki 的 [Contribution Guide](https://github.com/Yukaii/ics-scheduler/wiki/Contribution)
-
-## Troubleshooting
-
-### ENFILE: file table overflow
-
-Reference to this issue: https://github.com/karma-runner/karma/issues/1979, run
-
-```bash
-sudo launchctl limit maxfiles 16384 16384 && ulimit -n 16384
-```
 
 ## Credits
 
