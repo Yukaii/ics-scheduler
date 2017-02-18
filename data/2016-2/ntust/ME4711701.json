@@ -5,18 +5,18 @@
   "periods": [
     {
       "day": 1,
+      "time": "09:10-10:00",
+      "location": "TR-609"
+    },
+    {
+      "day": 1,
       "time": "10:20-11:10",
-      "location": "TR-517"
+      "location": "TR-609"
     },
     {
       "day": 3,
-      "time": "10:20-11:10",
-      "location": "TR-517"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "TR-517"
+      "time": "08:10-09:00",
+      "location": "TR-609"
     }
   ]
 }

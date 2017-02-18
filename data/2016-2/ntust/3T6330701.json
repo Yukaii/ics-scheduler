@@ -1,22 +1,22 @@
 {
-  "code": "3N2006701",
-  "name": "品牌管理",
-  "lecturer": "宋明真",
+  "code": "3T6330701",
+  "name": "平行程式設計",
+  "lecturer": "劉邦鋒",
   "periods": [
     {
       "day": 2,
       "time": "14:20-15:10",
-      "location": "本部 正301"
+      "location": "請洽系所辦"
     },
     {
       "day": 2,
       "time": "15:30-16:20",
-      "location": "本部 正301"
+      "location": "請洽系所辦"
     },
     {
       "day": 2,
       "time": "16:30-17:20",
-      "location": "本部 正301"
+      "location": "請洽系所辦"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "code": "AD1102302",
-  "name": "建築設計(二)",
-  "lecturer": "陳彥廷",
+  "code": "AD2112302",
+  "name": "建築設計(四)",
+  "lecturer": "彭雲宏",
   "periods": [
     {
       "day": 2,
@@ -24,6 +24,11 @@
       "location": ""
     },
     {
+      "day": 2,
+      "time": "20:10-21:05",
+      "location": ""
+    },
+    {
       "day": 4,
       "time": "16:30-17:20",
       "location": ""
@@ -41,6 +46,11 @@
     {
       "day": 4,
       "time": "19:20-20:10",
+      "location": ""
+    },
+    {
+      "day": 4,
+      "time": "20:10-21:05",
       "location": ""
     }
   ]

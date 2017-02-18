@@ -4,14 +4,14 @@
   "lecturer": "李宗憲",
   "periods": [
     {
-      "day": 5,
+      "day": 1,
       "time": "18:25-19:15",
-      "location": "TR-311"
+      "location": "TR-210"
     },
     {
-      "day": 5,
+      "day": 1,
       "time": "19:20-20:10",
-      "location": "TR-311"
+      "location": "TR-210"
     }
   ]
 }
