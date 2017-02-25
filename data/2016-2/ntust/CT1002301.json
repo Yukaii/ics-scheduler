@@ -4,16 +4,6 @@
   "lecturer": "許丁友",
   "periods": [
     {
-      "day": 4,
-      "time": "08:10-09:00",
-      "location": "E2-412"
-    },
-    {
-      "day": 4,
-      "time": "09:10-10:00",
-      "location": "E2-412"
-    },
-    {
       "day": 3,
       "time": "15:30-16:20",
       "location": "IB-306"
@@ -22,6 +12,16 @@
       "day": 3,
       "time": "16:30-17:20",
       "location": "IB-306"
+    },
+    {
+      "day": 4,
+      "time": "08:10-09:00",
+      "location": "IB-408"
+    },
+    {
+      "day": 4,
+      "time": "09:10-10:00",
+      "location": "IB-408"
     }
   ]
 }

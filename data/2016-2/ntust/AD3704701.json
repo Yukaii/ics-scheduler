@@ -1,22 +1,22 @@
 {
-  "code": "BA6202701",
-  "name": "國際行銷",
-  "lecturer": "盛麗慧",
+  "code": "AD3704701",
+  "name": "建築設計資訊處理",
+  "lecturer": "多位教師{施宣光、蔡欣君}",
   "periods": [
     {
       "day": 1,
       "time": "13:20-14:10",
-      "location": "MA-206"
+      "location": ""
     },
     {
       "day": 1,
       "time": "14:20-15:10",
-      "location": "MA-206"
+      "location": ""
     },
     {
       "day": 1,
       "time": "15:30-16:20",
-      "location": "MA-206"
+      "location": ""
     }
   ]
 }
