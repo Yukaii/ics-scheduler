@@ -4,29 +4,29 @@
   "lecturer": "呂森林",
   "periods": [
     {
-      "day": 1,
-      "time": "17:30-18:20",
-      "location": "TR-412-2"
-    },
-    {
       "day": 3,
       "time": "08:10-09:00",
-      "location": "TR-412-2"
+      "location": "TR-411"
     },
     {
       "day": 3,
       "time": "09:10-10:00",
-      "location": "TR-412-2"
+      "location": "TR-411"
+    },
+    {
+      "day": 1,
+      "time": "17:30-18:20",
+      "location": "TR-511"
     },
     {
       "day": 5,
       "time": "13:20-14:10",
-      "location": "TR-412-2"
+      "location": "TR-511"
     },
     {
       "day": 5,
       "time": "14:20-15:10",
-      "location": "TR-412-2"
+      "location": "TR-511"
     }
   ]
 }

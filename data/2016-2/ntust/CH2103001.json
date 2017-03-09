@@ -6,17 +6,17 @@
     {
       "day": 1,
       "time": "10:20-11:10",
-      "location": "IB-306"
+      "location": "E1-306"
     },
     {
       "day": 1,
       "time": "11:20-12:10",
-      "location": "IB-306"
+      "location": "E1-306"
     },
     {
       "day": 3,
       "time": "08:10-09:00",
-      "location": "IB-306"
+      "location": "IB-503"
     }
   ]
 }
