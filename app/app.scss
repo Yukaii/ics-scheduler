@@ -25,6 +25,10 @@ body {
   #school-dropdown {
     display: inline-block;
   }
+
+  h1 sup {
+    color: #6b6b6b;
+  }
 }
 
 .tab-pane {
@@ -53,4 +57,21 @@ body {
 
 textarea {
   resize: none;
+}
+
+#timetable.table {
+  margin: .5em 0;
+  td.hoverable {
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(154, 154, 234, 0.18);
+    }
+  }
+}
+
+#classrooms-modal.modal {
+  h5.modal-title {
+    display: inline-block;
+  }
 }
