@@ -39,6 +39,45 @@ if (fs.existsSync(directory)) { rmdir(directory); }
 fs.mkdirSync(directory);
 for (var data of courseDatas) {
   if (typeof data.code !== 'undefined' && data.code.length > 0) {
-    fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync(directory + '/' + data.code + '.json', JSON.stringify(data));
   }
 }
+
+// Collection All classrooms
+const classRoomSet = new Set();
+let periodUsedClassroomsMap = {};
+let classroomUsedTimeMap = {};
+
+courseDatas.forEach(course => {
+	course.periods.forEach(period => {
+		classRoomSet.add(period.location);
+
+		const dayAndTime = `${period.day} ${period.time}`;
+
+		/* build periodUsedClassRoomsMap */
+		if (typeof periodUsedClassroomsMap[dayAndTime] === 'undefined') {
+			periodUsedClassroomsMap[dayAndTime] = new Set();
+		}
+		periodUsedClassroomsMap[dayAndTime].add(period.location);
+
+		/* build classRoomUsedTimeMap */
+		if (typeof classroomUsedTimeMap[period.location] === 'undefined') {
+			classroomUsedTimeMap[period.location] = new Set();
+		}
+		classroomUsedTimeMap[period.location].add(dayAndTime);
+	});
+});
+
+function convertSetMap(oldMap) {
+	return Object.keys(oldMap).reduce((newMap, key) => {
+		return Object.assign({}, newMap, {[key]: Array.from(oldMap[key])});
+	}, {});
+}
+
+periodUsedClassroomsMap = convertSetMap(periodUsedClassroomsMap);
+classroomUsedTimeMap = convertSetMap(classroomUsedTimeMap);
+const classRooms = Array.from(classRoomSet);
+
+fs.writeFileSync(path.join(directory, `../${school}-classrooms.json`), JSON.stringify(classRooms));
+fs.writeFileSync(path.join(directory, `../${school}-period-classrooms.json`), JSON.stringify(periodUsedClassroomsMap));
+fs.writeFileSync(path.join(directory, `../${school}-classroom-times.json`), JSON.stringify(periodUsedClassroomsMap));
