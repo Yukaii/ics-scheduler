@@ -1,17 +1,1 @@
-{
-  "code": "EP4812301",
-  "name": "班級經營",
-  "lecturer": "李玲惠",
-  "periods": [
-    {
-      "day": 2,
-      "time": "18:25-19:15",
-      "location": "T4-305"
-    },
-    {
-      "day": 2,
-      "time": "19:20-20:10",
-      "location": "T4-305"
-    }
-  ]
-}
+{"code":"EP4812301","name":"班級經營","lecturer":"李玲惠","periods":[{"day":2,"time":"18:25-19:15","location":"T4-305"},{"day":2,"time":"19:20-20:10","location":"T4-305"}]}

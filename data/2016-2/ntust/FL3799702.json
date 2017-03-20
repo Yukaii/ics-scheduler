@@ -1,17 +1,1 @@
-{
-  "code": "FL3799702",
-  "name": "初級西班牙文(二)",
-  "lecturer": "馮志宇",
-  "periods": [
-    {
-      "day": 5,
-      "time": "13:20-14:10",
-      "location": "TR-512"
-    },
-    {
-      "day": 5,
-      "time": "14:20-15:10",
-      "location": "TR-512"
-    }
-  ]
-}
+{"code":"FL3799702","name":"初級西班牙文(二)","lecturer":"馮志宇","periods":[{"day":5,"time":"13:20-14:10","location":"TR-512"},{"day":5,"time":"14:20-15:10","location":"TR-512"}]}

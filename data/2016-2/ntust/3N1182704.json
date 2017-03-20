@@ -1,17 +1,1 @@
-{
-  "code": "3N1182704",
-  "name": "華語文教學實務",
-  "lecturer": "洪嘉馡",
-  "periods": [
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "本部 正402A"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "本部 正402A"
-    }
-  ]
-}
+{"code":"3N1182704","name":"華語文教學實務","lecturer":"洪嘉馡","periods":[{"day":2,"time":"10:20-11:10","location":"本部 正402A"},{"day":2,"time":"11:20-12:10","location":"本部 正402A"}]}

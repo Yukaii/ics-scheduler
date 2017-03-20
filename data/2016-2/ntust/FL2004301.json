@@ -1,17 +1,1 @@
-{
-  "code": "FL2004301",
-  "name": "英語演講(二)",
-  "lecturer": "黃玟君",
-  "periods": [
-    {
-      "day": 1,
-      "time": "08:10-09:00",
-      "location": "T4-301"
-    },
-    {
-      "day": 1,
-      "time": "09:10-10:00",
-      "location": "T4-301"
-    }
-  ]
-}
+{"code":"FL2004301","name":"英語演講(二)","lecturer":"黃玟君","periods":[{"day":1,"time":"08:10-09:00","location":"T4-301"},{"day":1,"time":"09:10-10:00","location":"T4-301"}]}

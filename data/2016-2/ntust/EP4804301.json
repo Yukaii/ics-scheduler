@@ -1,17 +1,1 @@
-{
-  "code": "EP4804301",
-  "name": "教育議題專題",
-  "lecturer": "邱國力",
-  "periods": [
-    {
-      "day": 3,
-      "time": "13:20-14:10",
-      "location": "TR-310-1"
-    },
-    {
-      "day": 3,
-      "time": "14:20-15:10",
-      "location": "TR-310-1"
-    }
-  ]
-}
+{"code":"EP4804301","name":"教育議題專題","lecturer":"邱國力","periods":[{"day":3,"time":"13:20-14:10","location":"TR-310-1"},{"day":3,"time":"14:20-15:10","location":"TR-310-1"}]}

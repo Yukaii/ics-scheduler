@@ -1,17 +1,1 @@
-{
-  "code": "GE3901301",
-  "name": "哲學與人生",
-  "lecturer": "林景銘",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "TR-413-1"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "TR-413-1"
-    }
-  ]
-}
+{"code":"GE3901301","name":"哲學與人生","lecturer":"林景銘","periods":[{"day":2,"time":"13:20-14:10","location":"TR-413-1"},{"day":2,"time":"14:20-15:10","location":"TR-413-1"}]}

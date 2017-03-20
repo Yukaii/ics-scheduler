@@ -1,17 +1,1 @@
-{
-  "code": "GE4303302",
-  "name": "歷史與人生",
-  "lecturer": "莊焜明",
-  "periods": [
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "T4-303"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "T4-303"
-    }
-  ]
-}
+{"code":"GE4303302","name":"歷史與人生","lecturer":"莊焜明","periods":[{"day":2,"time":"10:20-11:10","location":"T4-303"},{"day":2,"time":"11:20-12:10","location":"T4-303"}]}

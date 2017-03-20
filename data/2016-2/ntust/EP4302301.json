@@ -1,17 +1,1 @@
-{
-  "code": "EP4302301",
-  "name": "機械群教學實習",
-  "lecturer": "黃進和",
-  "periods": [
-    {
-      "day": 4,
-      "time": "18:25-19:15",
-      "location": "T4-301"
-    },
-    {
-      "day": 4,
-      "time": "19:20-20:10",
-      "location": "T4-301"
-    }
-  ]
-}
+{"code":"EP4302301","name":"機械群教學實習","lecturer":"黃進和","periods":[{"day":4,"time":"18:25-19:15","location":"T4-301"},{"day":4,"time":"19:20-20:10","location":"T4-301"}]}

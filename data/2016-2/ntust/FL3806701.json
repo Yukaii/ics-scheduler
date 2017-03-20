@@ -1,17 +1,1 @@
-{
-  "code": "FL3806701",
-  "name": "進階日文(二)",
-  "lecturer": "劉慧玲",
-  "periods": [
-    {
-      "day": 4,
-      "time": "15:30-16:20",
-      "location": "TR-513"
-    },
-    {
-      "day": 4,
-      "time": "16:30-17:20",
-      "location": "TR-513"
-    }
-  ]
-}
+{"code":"FL3806701","name":"進階日文(二)","lecturer":"劉慧玲","periods":[{"day":4,"time":"15:30-16:20","location":"TR-513"},{"day":4,"time":"16:30-17:20","location":"TR-513"}]}

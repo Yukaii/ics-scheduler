@@ -1,17 +1,1 @@
-{
-  "code": "GE3714302",
-  "name": "中國與東亞文明史",
-  "lecturer": "王瑞傑",
-  "periods": [
-    {
-      "day": 5,
-      "time": "13:20-14:10",
-      "location": "TR-411"
-    },
-    {
-      "day": 5,
-      "time": "14:20-15:10",
-      "location": "TR-411"
-    }
-  ]
-}
+{"code":"GE3714302","name":"中國與東亞文明史","lecturer":"王瑞傑","periods":[{"day":5,"time":"13:20-14:10","location":"TR-411"},{"day":5,"time":"14:20-15:10","location":"TR-411"}]}

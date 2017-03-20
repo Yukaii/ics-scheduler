@@ -1,12 +1,1 @@
-{
-  "code": "3T5782702",
-  "name": "演化醫學",
-  "lecturer": "楊偉勛",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "基醫201"
-    }
-  ]
-}
+{"code":"3T5782702","name":"演化醫學","lecturer":"楊偉勛","periods":[{"day":1,"time":"10:20-11:10","location":"基醫201"}]}

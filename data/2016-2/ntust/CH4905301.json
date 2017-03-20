@@ -1,17 +1,1 @@
-{
-  "code": "CH4905301",
-  "name": "專題討論(二)",
-  "lecturer": "何明樺",
-  "periods": [
-    {
-      "day": 3,
-      "time": "15:30-16:20",
-      "location": "E2-102"
-    },
-    {
-      "day": 3,
-      "time": "16:30-17:20",
-      "location": "E2-102"
-    }
-  ]
-}
+{"code":"CH4905301","name":"專題討論(二)","lecturer":"何明樺","periods":[{"day":3,"time":"15:30-16:20","location":"E2-102"},{"day":3,"time":"16:30-17:20","location":"E2-102"}]}

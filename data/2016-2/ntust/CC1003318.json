@@ -1,17 +1,1 @@
-{
-  "code": "CC1003318",
-  "name": "英文字彙與閱讀(二)",
-  "lecturer": "Aaron",
-  "periods": [
-    {
-      "day": 4,
-      "time": "08:10-09:00",
-      "location": "TR-609"
-    },
-    {
-      "day": 4,
-      "time": "09:10-10:00",
-      "location": "TR-609"
-    }
-  ]
-}
+{"code":"CC1003318","name":"英文字彙與閱讀(二)","lecturer":"Aaron","periods":[{"day":4,"time":"08:10-09:00","location":"TR-609"},{"day":4,"time":"09:10-10:00","location":"TR-609"}]}

@@ -1,17 +1,1 @@
-{
-  "code": "CS3901701",
-  "name": "電腦圖學導論實習",
-  "lecturer": "賴祐吉",
-  "periods": [
-    {
-      "day": 1,
-      "time": "15:30-16:20",
-      "location": "E1-201-1"
-    },
-    {
-      "day": 1,
-      "time": "16:30-17:20",
-      "location": "E1-201-1"
-    }
-  ]
-}
+{"code":"CS3901701","name":"電腦圖學導論實習","lecturer":"賴祐吉","periods":[{"day":1,"time":"15:30-16:20","location":"E1-201-1"},{"day":1,"time":"16:30-17:20","location":"E1-201-1"}]}

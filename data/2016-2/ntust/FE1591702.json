@@ -1,17 +1,1 @@
-{
-  "code": "FE1591702",
-  "name": "職場英文",
-  "lecturer": "范雅芬",
-  "periods": [
-    {
-      "day": 3,
-      "time": "15:30-16:20",
-      "location": "TR-513"
-    },
-    {
-      "day": 3,
-      "time": "16:30-17:20",
-      "location": "TR-513"
-    }
-  ]
-}
+{"code":"FE1591702","name":"職場英文","lecturer":"范雅芬","periods":[{"day":3,"time":"15:30-16:20","location":"TR-513"},{"day":3,"time":"16:30-17:20","location":"TR-513"}]}

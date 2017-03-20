@@ -1,17 +1,1 @@
-{
-  "code": "CC2514053",
-  "name": "體育(籃球)",
-  "lecturer": "陳忠誠",
-  "periods": [
-    {
-      "day": 5,
-      "time": "13:20-14:10",
-      "location": ""
-    },
-    {
-      "day": 5,
-      "time": "14:20-15:10",
-      "location": ""
-    }
-  ]
-}
+{"code":"CC2514053","name":"體育(籃球)","lecturer":"陳忠誠","periods":[{"day":5,"time":"13:20-14:10","location":""},{"day":5,"time":"14:20-15:10","location":""}]}

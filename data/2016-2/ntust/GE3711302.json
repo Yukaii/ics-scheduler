@@ -1,17 +1,1 @@
-{
-  "code": "GE3711302",
-  "name": "華人歷史與文化",
-  "lecturer": "張斐怡",
-  "periods": [
-    {
-      "day": 4,
-      "time": "15:30-16:20",
-      "location": "TR-515"
-    },
-    {
-      "day": 4,
-      "time": "16:30-17:20",
-      "location": "TR-515"
-    }
-  ]
-}
+{"code":"GE3711302","name":"華人歷史與文化","lecturer":"張斐怡","periods":[{"day":4,"time":"15:30-16:20","location":"TR-515"},{"day":4,"time":"16:30-17:20","location":"TR-515"}]}

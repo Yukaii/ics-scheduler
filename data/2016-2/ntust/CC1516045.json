@@ -1,17 +1,1 @@
-{
-  "code": "CC1516045",
-  "name": "體育(游泳)",
-  "lecturer": "江秀春",
-  "periods": [
-    {
-      "day": 4,
-      "time": "16:30-17:20",
-      "location": ""
-    },
-    {
-      "day": 4,
-      "time": "17:30-18:20",
-      "location": ""
-    }
-  ]
-}
+{"code":"CC1516045","name":"體育(游泳)","lecturer":"江秀春","periods":[{"day":4,"time":"16:30-17:20","location":""},{"day":4,"time":"17:30-18:20","location":""}]}

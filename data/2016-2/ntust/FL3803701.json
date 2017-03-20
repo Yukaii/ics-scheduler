@@ -1,17 +1,1 @@
-{
-  "code": "FL3803701",
-  "name": "高級西班牙文(二)",
-  "lecturer": "馮志宇",
-  "periods": [
-    {
-      "day": 4,
-      "time": "13:20-14:10",
-      "location": "TR-311"
-    },
-    {
-      "day": 4,
-      "time": "14:20-15:10",
-      "location": "TR-311"
-    }
-  ]
-}
+{"code":"FL3803701","name":"高級西班牙文(二)","lecturer":"馮志宇","periods":[{"day":4,"time":"13:20-14:10","location":"TR-311"},{"day":4,"time":"14:20-15:10","location":"TR-311"}]}

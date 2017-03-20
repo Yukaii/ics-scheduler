@@ -1,17 +1,1 @@
-{
-  "code": "3N5339702",
-  "name": "土地開發利用",
-  "lecturer": "紀聰吉",
-  "periods": [
-    {
-      "day": 2,
-      "time": "15:30-16:20",
-      "location": "系所自排"
-    },
-    {
-      "day": 2,
-      "time": "16:30-17:20",
-      "location": "系所自排"
-    }
-  ]
-}
+{"code":"3N5339702","name":"土地開發利用","lecturer":"紀聰吉","periods":[{"day":2,"time":"15:30-16:20","location":"系所自排"},{"day":2,"time":"16:30-17:20","location":"系所自排"}]}

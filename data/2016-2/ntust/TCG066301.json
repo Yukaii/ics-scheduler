@@ -1,17 +1,1 @@
-{
-  "code": "TCG066301",
-  "name": "創藝生活",
-  "lecturer": "邱韻哲",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "TR-311"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "TR-311"
-    }
-  ]
-}
+{"code":"TCG066301","name":"創藝生活","lecturer":"邱韻哲","periods":[{"day":2,"time":"13:20-14:10","location":"TR-311"},{"day":2,"time":"14:20-15:10","location":"TR-311"}]}

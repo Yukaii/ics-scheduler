@@ -1,17 +1,1 @@
-{
-  "code": "FL3104301",
-  "name": "英文寫作(四)",
-  "lecturer": "羅麗霞",
-  "periods": [
-    {
-      "day": 2,
-      "time": "20:10-21:05",
-      "location": "T4-303"
-    },
-    {
-      "day": 2,
-      "time": "21:10-22:00",
-      "location": "T4-303"
-    }
-  ]
-}
+{"code":"FL3104301","name":"英文寫作(四)","lecturer":"羅麗霞","periods":[{"day":2,"time":"20:10-21:05","location":"T4-303"},{"day":2,"time":"21:10-22:00","location":"T4-303"}]}

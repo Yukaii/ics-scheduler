@@ -1,17 +1,1 @@
-{
-  "code": "DT5802301",
-  "name": "專題討論(二)",
-  "lecturer": "李根在",
-  "periods": [
-    {
-      "day": 5,
-      "time": "13:20-14:10",
-      "location": "TR-211"
-    },
-    {
-      "day": 5,
-      "time": "14:20-15:10",
-      "location": "TR-211"
-    }
-  ]
-}
+{"code":"DT5802301","name":"專題討論(二)","lecturer":"李根在","periods":[{"day":5,"time":"13:20-14:10","location":"TR-211"},{"day":5,"time":"14:20-15:10","location":"TR-211"}]}

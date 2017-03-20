@@ -1,17 +1,1 @@
-{
-  "code": "3T1140702",
-  "name": "國際安全",
-  "lecturer": "陳世民",
-  "periods": [
-    {
-      "day": 3,
-      "time": "15:30-16:20",
-      "location": "社科405"
-    },
-    {
-      "day": 3,
-      "time": "16:30-17:20",
-      "location": "社科405"
-    }
-  ]
-}
+{"code":"3T1140702","name":"國際安全","lecturer":"陳世民","periods":[{"day":3,"time":"15:30-16:20","location":"社科405"},{"day":3,"time":"16:30-17:20","location":"社科405"}]}

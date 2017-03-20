@@ -1,17 +1,1 @@
-{
-  "code": "3NG291701",
-  "name": "古典詩選讀",
-  "lecturer": "黃敬家",
-  "periods": [
-    {
-      "day": 3,
-      "time": "10:20-11:10",
-      "location": "本部 樸204"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "本部 樸204"
-    }
-  ]
-}
+{"code":"3NG291701","name":"古典詩選讀","lecturer":"黃敬家","periods":[{"day":3,"time":"10:20-11:10","location":"本部 樸204"},{"day":3,"time":"11:20-12:10","location":"本部 樸204"}]}

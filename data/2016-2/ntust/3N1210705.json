@@ -1,17 +1,1 @@
-{
-  "code": "3N1210705",
-  "name": "電腦地理製圖",
-  "lecturer": "周學政",
-  "periods": [
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "系所自排"
-    },
-    {
-      "day": 1,
-      "time": "12:20-13:10",
-      "location": "系所自排"
-    }
-  ]
-}
+{"code":"3N1210705","name":"電腦地理製圖","lecturer":"周學政","periods":[{"day":1,"time":"11:20-12:10","location":"系所自排"},{"day":1,"time":"12:20-13:10","location":"系所自排"}]}

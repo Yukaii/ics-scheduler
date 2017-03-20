@@ -1,17 +1,1 @@
-{
-  "code": "FL1012301",
-  "name": "語言與文化",
-  "lecturer": "王啟琳",
-  "periods": [
-    {
-      "day": 2,
-      "time": "08:10-09:00",
-      "location": "T4-407"
-    },
-    {
-      "day": 2,
-      "time": "09:10-10:00",
-      "location": "T4-407"
-    }
-  ]
-}
+{"code":"FL1012301","name":"語言與文化","lecturer":"王啟琳","periods":[{"day":2,"time":"08:10-09:00","location":"T4-407"},{"day":2,"time":"09:10-10:00","location":"T4-407"}]}

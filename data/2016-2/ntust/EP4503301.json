@@ -1,17 +1,1 @@
-{
-  "code": "EP4503301",
-  "name": "外語群教學實習",
-  "lecturer": "洪紹挺",
-  "periods": [
-    {
-      "day": 4,
-      "time": "20:10-21:05",
-      "location": "T4-305"
-    },
-    {
-      "day": 4,
-      "time": "21:10-22:00",
-      "location": "T4-305"
-    }
-  ]
-}
+{"code":"EP4503301","name":"外語群教學實習","lecturer":"洪紹挺","periods":[{"day":4,"time":"20:10-21:05","location":"T4-305"},{"day":4,"time":"21:10-22:00","location":"T4-305"}]}

@@ -1,17 +1,1 @@
-{
-  "code": "3N2046701",
-  "name": "英語聽講（二）",
-  "lecturer": "陳秋梅",
-  "periods": [
-    {
-      "day": 1,
-      "time": "13:20-14:10",
-      "location": "本部 誠701A"
-    },
-    {
-      "day": 1,
-      "time": "14:20-15:10",
-      "location": "本部 誠701A"
-    }
-  ]
-}
+{"code":"3N2046701","name":"英語聽講（二）","lecturer":"陳秋梅","periods":[{"day":1,"time":"13:20-14:10","location":"本部 誠701A"},{"day":1,"time":"14:20-15:10","location":"本部 誠701A"}]}

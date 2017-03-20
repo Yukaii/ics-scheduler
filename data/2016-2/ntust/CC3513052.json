@@ -1,17 +1,1 @@
-{
-  "code": "CC3513052",
-  "name": "體育(桌球)",
-  "lecturer": "孫千嵐",
-  "periods": [
-    {
-      "day": 5,
-      "time": "10:20-11:10",
-      "location": ""
-    },
-    {
-      "day": 5,
-      "time": "11:20-12:10",
-      "location": ""
-    }
-  ]
-}
+{"code":"CC3513052","name":"體育(桌球)","lecturer":"孫千嵐","periods":[{"day":5,"time":"10:20-11:10","location":""},{"day":5,"time":"11:20-12:10","location":""}]}

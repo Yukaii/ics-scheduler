@@ -1,12 +1,1 @@
-{
-  "code": "CH1007301",
-  "name": "化學工程概論",
-  "lecturer": "林昇佃",
-  "periods": [
-    {
-      "day": 4,
-      "time": "17:30-18:20",
-      "location": "IB-401"
-    }
-  ]
-}
+{"code":"CH1007301","name":"化學工程概論","lecturer":"林昇佃","periods":[{"day":4,"time":"17:30-18:20","location":"IB-401"}]}

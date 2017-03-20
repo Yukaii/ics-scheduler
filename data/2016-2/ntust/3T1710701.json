@@ -1,17 +1,1 @@
-{
-  "code": "3T1710701",
-  "name": "文選學",
-  "lecturer": "張蓓蓓",
-  "periods": [
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "文16"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "文16"
-    }
-  ]
-}
+{"code":"3T1710701","name":"文選學","lecturer":"張蓓蓓","periods":[{"day":2,"time":"10:20-11:10","location":"文16"},{"day":2,"time":"11:20-12:10","location":"文16"}]}

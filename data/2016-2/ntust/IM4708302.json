@@ -1,17 +1,1 @@
-{
-  "code": "IM4708302",
-  "name": "人因工程實習",
-  "lecturer": "林承哲",
-  "periods": [
-    {
-      "day": 3,
-      "time": "13:20-14:10",
-      "location": "MA-010"
-    },
-    {
-      "day": 3,
-      "time": "14:20-15:10",
-      "location": "MA-010"
-    }
-  ]
-}
+{"code":"IM4708302","name":"人因工程實習","lecturer":"林承哲","periods":[{"day":3,"time":"13:20-14:10","location":"MA-010"},{"day":3,"time":"14:20-15:10","location":"MA-010"}]}

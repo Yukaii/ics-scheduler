@@ -1,17 +1,1 @@
-{
-  "code": "CC1007341",
-  "name": "英語口語訓練(二)",
-  "lecturer": "卜莎娜",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "T4-404"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "T4-404"
-    }
-  ]
-}
+{"code":"CC1007341","name":"英語口語訓練(二)","lecturer":"卜莎娜","periods":[{"day":2,"time":"13:20-14:10","location":"T4-404"},{"day":2,"time":"14:20-15:10","location":"T4-404"}]}

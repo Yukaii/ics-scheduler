@@ -1,17 +1,1 @@
-{
-  "code": "FE1851702",
-  "name": "國際議題分析",
-  "lecturer": "JeremySyk",
-  "periods": [
-    {
-      "day": 4,
-      "time": "15:30-16:20",
-      "location": "IB-509"
-    },
-    {
-      "day": 4,
-      "time": "16:30-17:20",
-      "location": "IB-509"
-    }
-  ]
-}
+{"code":"FE1851702","name":"國際議題分析","lecturer":"JeremySyk","periods":[{"day":4,"time":"15:30-16:20","location":"IB-509"},{"day":4,"time":"16:30-17:20","location":"IB-509"}]}

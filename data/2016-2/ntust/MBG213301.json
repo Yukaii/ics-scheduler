@@ -1,17 +1,1 @@
-{
-  "code": "MBG213301",
-  "name": "傳播技能",
-  "lecturer": "胡家紋",
-  "periods": [
-    {
-      "day": 5,
-      "time": "13:20-14:10",
-      "location": "TR-213"
-    },
-    {
-      "day": 5,
-      "time": "14:20-15:10",
-      "location": "TR-213"
-    }
-  ]
-}
+{"code":"MBG213301","name":"傳播技能","lecturer":"胡家紋","periods":[{"day":5,"time":"13:20-14:10","location":"TR-213"},{"day":5,"time":"14:20-15:10","location":"TR-213"}]}

@@ -1,17 +1,1 @@
-{
-  "code": "3T5792702",
-  "name": "暴露評估",
-  "lecturer": "吳章甫",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "公衛201"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "公衛201"
-    }
-  ]
-}
+{"code":"3T5792702","name":"暴露評估","lecturer":"吳章甫","periods":[{"day":2,"time":"13:20-14:10","location":"公衛201"},{"day":2,"time":"14:20-15:10","location":"公衛201"}]}

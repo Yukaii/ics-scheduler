@@ -1,17 +1,1 @@
-{
-  "code": "3N1815704",
-  "name": "華語語法學",
-  "lecturer": "洪嘉馡",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "本部 正402A"
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "本部 正402A"
-    }
-  ]
-}
+{"code":"3N1815704","name":"華語語法學","lecturer":"洪嘉馡","periods":[{"day":1,"time":"10:20-11:10","location":"本部 正402A"},{"day":1,"time":"11:20-12:10","location":"本部 正402A"}]}

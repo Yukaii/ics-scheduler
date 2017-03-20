@@ -1,17 +1,1 @@
-{
-  "code": "BA1709501",
-  "name": "會計學實習",
-  "lecturer": "鄧美玉",
-  "periods": [
-    {
-      "day": 3,
-      "time": "16:30-17:20",
-      "location": "TR-411"
-    },
-    {
-      "day": 3,
-      "time": "17:30-18:20",
-      "location": "TR-411"
-    }
-  ]
-}
+{"code":"BA1709501","name":"會計學實習","lecturer":"鄧美玉","periods":[{"day":3,"time":"16:30-17:20","location":"TR-411"},{"day":3,"time":"17:30-18:20","location":"TR-411"}]}

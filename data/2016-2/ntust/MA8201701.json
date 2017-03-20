@@ -1,12 +1,1 @@
-{
-  "code": "MA8201701",
-  "name": "企業研習(二)",
-  "lecturer": "郭庭魁",
-  "periods": [
-    {
-      "day": 4,
-      "time": "08:10-09:00",
-      "location": ""
-    }
-  ]
-}
+{"code":"MA8201701","name":"企業研習(二)","lecturer":"郭庭魁","periods":[{"day":4,"time":"08:10-09:00","location":""}]}

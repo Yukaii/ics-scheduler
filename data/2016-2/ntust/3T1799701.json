@@ -1,17 +1,1 @@
-{
-  "code": "3T1799701",
-  "name": "環境法",
-  "lecturer": "葉俊榮",
-  "periods": [
-    {
-      "day": 3,
-      "time": "18:25-19:15",
-      "location": "法2201"
-    },
-    {
-      "day": 3,
-      "time": "19:20-20:10",
-      "location": "法2201"
-    }
-  ]
-}
+{"code":"3T1799701","name":"環境法","lecturer":"葉俊榮","periods":[{"day":3,"time":"18:25-19:15","location":"法2201"},{"day":3,"time":"19:20-20:10","location":"法2201"}]}

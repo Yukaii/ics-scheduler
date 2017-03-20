@@ -1,17 +1,1 @@
-{
-  "code": "3N5564702",
-  "name": "海岸環境分析",
-  "lecturer": "林宗儀",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "系所自排"
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "系所自排"
-    }
-  ]
-}
+{"code":"3N5564702","name":"海岸環境分析","lecturer":"林宗儀","periods":[{"day":1,"time":"10:20-11:10","location":"系所自排"},{"day":1,"time":"11:20-12:10","location":"系所自排"}]}

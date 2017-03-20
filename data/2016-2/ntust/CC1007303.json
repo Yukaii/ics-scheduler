@@ -1,17 +1,1 @@
-{
-  "code": "CC1007303",
-  "name": "英語口語訓練(二)",
-  "lecturer": "陳淳麗",
-  "periods": [
-    {
-      "day": 1,
-      "time": "13:20-14:10",
-      "location": "IB-512"
-    },
-    {
-      "day": 1,
-      "time": "14:20-15:10",
-      "location": "IB-512"
-    }
-  ]
-}
+{"code":"CC1007303","name":"英語口語訓練(二)","lecturer":"陳淳麗","periods":[{"day":1,"time":"13:20-14:10","location":"IB-512"},{"day":1,"time":"14:20-15:10","location":"IB-512"}]}

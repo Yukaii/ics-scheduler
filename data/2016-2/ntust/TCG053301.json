@@ -1,17 +1,1 @@
-{
-  "code": "TCG053301",
-  "name": "永續綠色智慧生活",
-  "lecturer": "蘇威年",
-  "periods": [
-    {
-      "day": 4,
-      "time": "13:20-14:10",
-      "location": "TR-511"
-    },
-    {
-      "day": 4,
-      "time": "14:20-15:10",
-      "location": "TR-511"
-    }
-  ]
-}
+{"code":"TCG053301","name":"永續綠色智慧生活","lecturer":"蘇威年","periods":[{"day":4,"time":"13:20-14:10","location":"TR-511"},{"day":4,"time":"14:20-15:10","location":"TR-511"}]}

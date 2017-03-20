@@ -1,17 +1,1 @@
-{
-  "code": "BA4004303",
-  "name": "英語演講(二)",
-  "lecturer": "徐碧霞",
-  "periods": [
-    {
-      "day": 5,
-      "time": "15:30-16:20",
-      "location": "T4-305"
-    },
-    {
-      "day": 5,
-      "time": "16:30-17:20",
-      "location": "T4-305"
-    }
-  ]
-}
+{"code":"BA4004303","name":"英語演講(二)","lecturer":"徐碧霞","periods":[{"day":5,"time":"15:30-16:20","location":"T4-305"},{"day":5,"time":"16:30-17:20","location":"T4-305"}]}

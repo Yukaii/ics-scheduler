@@ -1,17 +1,1 @@
-{
-  "code": "CC1003308",
-  "name": "英文字彙與閱讀(二)",
-  "lecturer": "徐維珍",
-  "periods": [
-    {
-      "day": 1,
-      "time": "15:30-16:20",
-      "location": "TR-413-1"
-    },
-    {
-      "day": 1,
-      "time": "16:30-17:20",
-      "location": "TR-413-1"
-    }
-  ]
-}
+{"code":"CC1003308","name":"英文字彙與閱讀(二)","lecturer":"徐維珍","periods":[{"day":1,"time":"15:30-16:20","location":"TR-413-1"},{"day":1,"time":"16:30-17:20","location":"TR-413-1"}]}

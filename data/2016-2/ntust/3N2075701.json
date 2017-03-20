@@ -1,17 +1,1 @@
-{
-  "code": "3N2075701",
-  "name": "即興表演",
-  "lecturer": "梁志民",
-  "periods": [
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "知音劇場"
-    },
-    {
-      "day": 2,
-      "time": "15:30-16:20",
-      "location": "知音劇場"
-    }
-  ]
-}
+{"code":"3N2075701","name":"即興表演","lecturer":"梁志民","periods":[{"day":2,"time":"14:20-15:10","location":"知音劇場"},{"day":2,"time":"15:30-16:20","location":"知音劇場"}]}

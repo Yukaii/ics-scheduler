@@ -1,17 +1,1 @@
-{
-  "code": "FE1821703",
-  "name": "新聞英文",
-  "lecturer": "黃湘玲",
-  "periods": [
-    {
-      "day": 3,
-      "time": "13:20-14:10",
-      "location": "TR-413-1"
-    },
-    {
-      "day": 3,
-      "time": "14:20-15:10",
-      "location": "TR-413-1"
-    }
-  ]
-}
+{"code":"FE1821703","name":"新聞英文","lecturer":"黃湘玲","periods":[{"day":3,"time":"13:20-14:10","location":"TR-413-1"},{"day":3,"time":"14:20-15:10","location":"TR-413-1"}]}

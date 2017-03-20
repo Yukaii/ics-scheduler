@@ -1,17 +1,1 @@
-{
-  "code": "CC1003324",
-  "name": "英文字彙與閱讀(二)",
-  "lecturer": "洪茂盛",
-  "periods": [
-    {
-      "day": 4,
-      "time": "10:20-11:10",
-      "location": "TR-514"
-    },
-    {
-      "day": 4,
-      "time": "11:20-12:10",
-      "location": "TR-514"
-    }
-  ]
-}
+{"code":"CC1003324","name":"英文字彙與閱讀(二)","lecturer":"洪茂盛","periods":[{"day":4,"time":"10:20-11:10","location":"TR-514"},{"day":4,"time":"11:20-12:10","location":"TR-514"}]}

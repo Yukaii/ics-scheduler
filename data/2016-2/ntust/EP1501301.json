@@ -1,17 +1,1 @@
-{
-  "code": "EP1501301",
-  "name": "教育概論",
-  "lecturer": "陳秀玲",
-  "periods": [
-    {
-      "day": 1,
-      "time": "15:30-16:20",
-      "location": "T4-405"
-    },
-    {
-      "day": 1,
-      "time": "16:30-17:20",
-      "location": "T4-405"
-    }
-  ]
-}
+{"code":"EP1501301","name":"教育概論","lecturer":"陳秀玲","periods":[{"day":1,"time":"15:30-16:20","location":"T4-405"},{"day":1,"time":"16:30-17:20","location":"T4-405"}]}

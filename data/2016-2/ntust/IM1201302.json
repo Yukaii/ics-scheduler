@@ -1,17 +1,1 @@
-{
-  "code": "IM1201302",
-  "name": "計算機程式",
-  "lecturer": "楊朝龍",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "MA-215"
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "MA-215"
-    }
-  ]
-}
+{"code":"IM1201302","name":"計算機程式","lecturer":"楊朝龍","periods":[{"day":1,"time":"10:20-11:10","location":"MA-215"},{"day":1,"time":"11:20-12:10","location":"MA-215"}]}

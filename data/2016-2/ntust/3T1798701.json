@@ -1,17 +1,1 @@
-{
-  "code": "3T1798701",
-  "name": "國際公法",
-  "lecturer": "黃昭元",
-  "periods": [
-    {
-      "day": 5,
-      "time": "15:30-16:20",
-      "location": "法2311"
-    },
-    {
-      "day": 5,
-      "time": "16:30-17:20",
-      "location": "法2311"
-    }
-  ]
-}
+{"code":"3T1798701","name":"國際公法","lecturer":"黃昭元","periods":[{"day":5,"time":"15:30-16:20","location":"法2311"},{"day":5,"time":"16:30-17:20","location":"法2311"}]}

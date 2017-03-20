@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <head>
+    <title>找空教室 | 行事曆課表製作工具</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/app-2afd0b2a.css">
+  </head>
+  <body>
+    <div id="classrooms-modal" class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">沒上課的教室</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="搜尋..." id="classroom-filter-input">
+            </div>
+            <div class="classroom-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container main">
+      <a href="../">< 回課表製作工具</a>
+      <div class="card">
+        <div class="card-block">
+          <h1>找空教室<sup>beta 試行中</sup></h1>
+
+          <select>
+            <option value="2016-2">105-2</option>
+          </select>
+
+          <table id="timetable" class="table table-bordered"></table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/vendor-a6612998.js"></script>
+  <script src="/classroom-f9c932ee.js"></script>
+  <script>
+    require('classroom');
+  </script>
+</html>

@@ -1,12 +1,1 @@
-{
-  "code": "3T5936702",
-  "name": "海洋量測與實習",
-  "lecturer": "張翠玉",
-  "periods": [
-    {
-      "day": 5,
-      "time": "16:30-17:20",
-      "location": "海研115"
-    }
-  ]
-}
+{"code":"3T5936702","name":"海洋量測與實習","lecturer":"張翠玉","periods":[{"day":5,"time":"16:30-17:20","location":"海研115"}]}

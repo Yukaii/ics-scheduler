@@ -1,17 +1,1 @@
-{
-  "code": "TX7904301",
-  "name": "書報討論(八)",
-  "lecturer": "陳志堅",
-  "periods": [
-    {
-      "day": 5,
-      "time": "16:30-17:20",
-      "location": ""
-    },
-    {
-      "day": 5,
-      "time": "17:30-18:20",
-      "location": ""
-    }
-  ]
-}
+{"code":"TX7904301","name":"書報討論(八)","lecturer":"陳志堅","periods":[{"day":5,"time":"16:30-17:20","location":""},{"day":5,"time":"17:30-18:20","location":""}]}

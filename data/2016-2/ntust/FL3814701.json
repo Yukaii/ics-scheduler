@@ -1,17 +1,1 @@
-{
-  "code": "FL3814701",
-  "name": "進階法文(二)",
-  "lecturer": "陳宜君",
-  "periods": [
-    {
-      "day": 2,
-      "time": "15:30-16:20",
-      "location": "TR-610"
-    },
-    {
-      "day": 2,
-      "time": "16:30-17:20",
-      "location": "TR-610"
-    }
-  ]
-}
+{"code":"FL3814701","name":"進階法文(二)","lecturer":"陳宜君","periods":[{"day":2,"time":"15:30-16:20","location":"TR-610"},{"day":2,"time":"16:30-17:20","location":"TR-610"}]}

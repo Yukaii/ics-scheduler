@@ -1,17 +1,1 @@
-{
-  "code": "FE1921701",
-  "name": "進階英文閱讀",
-  "lecturer": "陳秋月",
-  "periods": [
-    {
-      "day": 2,
-      "time": "15:30-16:20",
-      "location": "TR-616"
-    },
-    {
-      "day": 2,
-      "time": "16:30-17:20",
-      "location": "TR-616"
-    }
-  ]
-}
+{"code":"FE1921701","name":"進階英文閱讀","lecturer":"陳秋月","periods":[{"day":2,"time":"15:30-16:20","location":"TR-616"},{"day":2,"time":"16:30-17:20","location":"TR-616"}]}

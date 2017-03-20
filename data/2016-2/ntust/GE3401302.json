@@ -1,17 +1,1 @@
-{
-  "code": "GE3401302",
-  "name": "憲法",
-  "lecturer": "陳淵源",
-  "periods": [
-    {
-      "day": 1,
-      "time": "13:20-14:10",
-      "location": "IB-509"
-    },
-    {
-      "day": 1,
-      "time": "14:20-15:10",
-      "location": "IB-509"
-    }
-  ]
-}
+{"code":"GE3401302","name":"憲法","lecturer":"陳淵源","periods":[{"day":1,"time":"13:20-14:10","location":"IB-509"},{"day":1,"time":"14:20-15:10","location":"IB-509"}]}

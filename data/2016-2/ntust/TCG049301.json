@@ -1,17 +1,1 @@
-{
-  "code": "TCG049301",
-  "name": "經典與人生",
-  "lecturer": "釋見咸法師",
-  "periods": [
-    {
-      "day": 3,
-      "time": "10:20-11:10",
-      "location": "TR-409-1"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "TR-409-1"
-    }
-  ]
-}
+{"code":"TCG049301","name":"經典與人生","lecturer":"釋見咸法師","periods":[{"day":3,"time":"10:20-11:10","location":"TR-409-1"},{"day":3,"time":"11:20-12:10","location":"TR-409-1"}]}

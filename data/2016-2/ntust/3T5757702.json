@@ -1,17 +1,1 @@
-{
-  "code": "3T5757702",
-  "name": "水生生物天然物化學",
-  "lecturer": "李宗徽",
-  "periods": [
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "漁科302B"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "漁科302B"
-    }
-  ]
-}
+{"code":"3T5757702","name":"水生生物天然物化學","lecturer":"李宗徽","periods":[{"day":2,"time":"10:20-11:10","location":"漁科302B"},{"day":2,"time":"11:20-12:10","location":"漁科302B"}]}

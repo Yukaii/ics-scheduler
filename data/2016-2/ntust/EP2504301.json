@@ -1,17 +1,1 @@
-{
-  "code": "EP2504301",
-  "name": "輔導原理與實務",
-  "lecturer": "王淑玲",
-  "periods": [
-    {
-      "day": 3,
-      "time": "10:20-11:10",
-      "location": "T4-404"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "T4-404"
-    }
-  ]
-}
+{"code":"EP2504301","name":"輔導原理與實務","lecturer":"王淑玲","periods":[{"day":3,"time":"10:20-11:10","location":"T4-404"},{"day":3,"time":"11:20-12:10","location":"T4-404"}]}

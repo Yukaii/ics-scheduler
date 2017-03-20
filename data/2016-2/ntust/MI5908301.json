@@ -1,17 +1,1 @@
-{
-  "code": "MI5908301",
-  "name": "資訊管理專題研討",
-  "lecturer": "周子銓",
-  "periods": [
-    {
-      "day": 4,
-      "time": "15:30-16:20",
-      "location": "IB-401"
-    },
-    {
-      "day": 4,
-      "time": "16:30-17:20",
-      "location": "IB-401"
-    }
-  ]
-}
+{"code":"MI5908301","name":"資訊管理專題研討","lecturer":"周子銓","periods":[{"day":4,"time":"15:30-16:20","location":"IB-401"},{"day":4,"time":"16:30-17:20","location":"IB-401"}]}

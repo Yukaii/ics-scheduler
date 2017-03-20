@@ -1,17 +1,1 @@
-{
-  "code": "FE1112704",
-  "name": "英文實務",
-  "lecturer": "黃子玲",
-  "periods": [
-    {
-      "day": 1,
-      "time": "16:30-17:20",
-      "location": "IB-306"
-    },
-    {
-      "day": 1,
-      "time": "17:30-18:20",
-      "location": "IB-306"
-    }
-  ]
-}
+{"code":"FE1112704","name":"英文實務","lecturer":"黃子玲","periods":[{"day":1,"time":"16:30-17:20","location":"IB-306"},{"day":1,"time":"17:30-18:20","location":"IB-306"}]}

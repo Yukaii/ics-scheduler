@@ -1,17 +1,1 @@
-{
-  "code": "3TG031701",
-  "name": "邏輯",
-  "lecturer": "傅皓政",
-  "periods": [
-    {
-      "day": 1,
-      "time": "13:20-14:10",
-      "location": "博雅102"
-    },
-    {
-      "day": 1,
-      "time": "14:20-15:10",
-      "location": "博雅102"
-    }
-  ]
-}
+{"code":"3TG031701","name":"邏輯","lecturer":"傅皓政","periods":[{"day":1,"time":"13:20-14:10","location":"博雅102"},{"day":1,"time":"14:20-15:10","location":"博雅102"}]}

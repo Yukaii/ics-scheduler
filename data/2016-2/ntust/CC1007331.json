@@ -1,17 +1,1 @@
-{
-  "code": "CC1007331",
-  "name": "英語口語訓練(二)",
-  "lecturer": "李寶莉",
-  "periods": [
-    {
-      "day": 4,
-      "time": "08:10-09:00",
-      "location": "TR-613"
-    },
-    {
-      "day": 4,
-      "time": "09:10-10:00",
-      "location": "TR-613"
-    }
-  ]
-}
+{"code":"CC1007331","name":"英語口語訓練(二)","lecturer":"李寶莉","periods":[{"day":4,"time":"08:10-09:00","location":"TR-613"},{"day":4,"time":"09:10-10:00","location":"TR-613"}]}

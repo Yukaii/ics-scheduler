@@ -1,17 +1,1 @@
-{
-  "code": "TX6902701",
-  "name": "書報討論(四)",
-  "lecturer": "郭東昊",
-  "periods": [
-    {
-      "day": 1,
-      "time": "16:30-17:20",
-      "location": ""
-    },
-    {
-      "day": 1,
-      "time": "17:30-18:20",
-      "location": ""
-    }
-  ]
-}
+{"code":"TX6902701","name":"書報討論(四)","lecturer":"郭東昊","periods":[{"day":1,"time":"16:30-17:20","location":""},{"day":1,"time":"17:30-18:20","location":""}]}

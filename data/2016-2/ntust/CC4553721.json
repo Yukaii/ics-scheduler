@@ -1,17 +1,1 @@
-{
-  "code": "CC4553721",
-  "name": "體育(桌球 [4])",
-  "lecturer": "陳益祥",
-  "periods": [
-    {
-      "day": 2,
-      "time": "08:10-09:00",
-      "location": ""
-    },
-    {
-      "day": 2,
-      "time": "09:10-10:00",
-      "location": ""
-    }
-  ]
-}
+{"code":"CC4553721","name":"體育(桌球 [4])","lecturer":"陳益祥","periods":[{"day":2,"time":"08:10-09:00","location":""},{"day":2,"time":"09:10-10:00","location":""}]}

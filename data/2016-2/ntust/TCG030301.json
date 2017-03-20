@@ -1,17 +1,1 @@
-{
-  "code": "TCG030301",
-  "name": "經濟學與生活體驗",
-  "lecturer": "徐茂炫",
-  "periods": [
-    {
-      "day": 4,
-      "time": "13:20-14:10",
-      "location": "TR-214"
-    },
-    {
-      "day": 4,
-      "time": "14:20-15:10",
-      "location": "TR-214"
-    }
-  ]
-}
+{"code":"TCG030301","name":"經濟學與生活體驗","lecturer":"徐茂炫","periods":[{"day":4,"time":"13:20-14:10","location":"TR-214"},{"day":4,"time":"14:20-15:10","location":"TR-214"}]}

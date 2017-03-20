@@ -1,17 +1,1 @@
-{
-  "code": "CC1003315",
-  "name": "英文字彙與閱讀(二)",
-  "lecturer": "蔡玫馨",
-  "periods": [
-    {
-      "day": 3,
-      "time": "10:20-11:10",
-      "location": "TR-515"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "TR-515"
-    }
-  ]
-}
+{"code":"CC1003315","name":"英文字彙與閱讀(二)","lecturer":"蔡玫馨","periods":[{"day":3,"time":"10:20-11:10","location":"TR-515"},{"day":3,"time":"11:20-12:10","location":"TR-515"}]}

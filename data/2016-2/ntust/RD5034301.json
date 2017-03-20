@@ -1,17 +1,1 @@
-{
-  "code": "RD5034301",
-  "name": "專題研究(四)",
-  "lecturer": "鄭正元",
-  "periods": [
-    {
-      "day": 6,
-      "time": "12:20-13:10",
-      "location": "T3-304"
-    },
-    {
-      "day": 6,
-      "time": "13:20-14:10",
-      "location": "T3-304"
-    }
-  ]
-}
+{"code":"RD5034301","name":"專題研究(四)","lecturer":"鄭正元","periods":[{"day":6,"time":"12:20-13:10","location":"T3-304"},{"day":6,"time":"13:20-14:10","location":"T3-304"}]}

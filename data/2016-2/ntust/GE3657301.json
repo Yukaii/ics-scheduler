@@ -1,12 +1,1 @@
-{
-  "code": "GE3657301",
-  "name": "公職入門公文",
-  "lecturer": "游適宏",
-  "periods": [
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "T4-304"
-    }
-  ]
-}
+{"code":"GE3657301","name":"公職入門公文","lecturer":"游適宏","periods":[{"day":1,"time":"11:20-12:10","location":"T4-304"}]}

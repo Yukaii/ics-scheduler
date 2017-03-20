@@ -1,17 +1,1 @@
-{
-  "code": "TCG055301",
-  "name": "雜誌編輯與學習（二）",
-  "lecturer": "梁欣如",
-  "periods": [
-    {
-      "day": 3,
-      "time": "16:30-17:20",
-      "location": "TR-516"
-    },
-    {
-      "day": 3,
-      "time": "17:30-18:20",
-      "location": "TR-516"
-    }
-  ]
-}
+{"code":"TCG055301","name":"雜誌編輯與學習（二）","lecturer":"梁欣如","periods":[{"day":3,"time":"16:30-17:20","location":"TR-516"},{"day":3,"time":"17:30-18:20","location":"TR-516"}]}

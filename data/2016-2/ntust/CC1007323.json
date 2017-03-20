@@ -1,17 +1,1 @@
-{
-  "code": "CC1007323",
-  "name": "英語口語訓練(二)",
-  "lecturer": "黃子玲",
-  "periods": [
-    {
-      "day": 3,
-      "time": "10:20-11:10",
-      "location": "TR-511"
-    },
-    {
-      "day": 3,
-      "time": "11:20-12:10",
-      "location": "TR-511"
-    }
-  ]
-}
+{"code":"CC1007323","name":"英語口語訓練(二)","lecturer":"黃子玲","periods":[{"day":3,"time":"10:20-11:10","location":"TR-511"},{"day":3,"time":"11:20-12:10","location":"TR-511"}]}

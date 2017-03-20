@@ -1,17 +1,1 @@
-{
-  "code": "EP5509301",
-  "name": "教育社會學",
-  "lecturer": "翁楊絲茜",
-  "periods": [
-    {
-      "day": 2,
-      "time": "10:20-11:10",
-      "location": "T4-405"
-    },
-    {
-      "day": 2,
-      "time": "11:20-12:10",
-      "location": "T4-405"
-    }
-  ]
-}
+{"code":"EP5509301","name":"教育社會學","lecturer":"翁楊絲茜","periods":[{"day":2,"time":"10:20-11:10","location":"T4-405"},{"day":2,"time":"11:20-12:10","location":"T4-405"}]}

@@ -1,17 +1,1 @@
-{
-  "code": "BA1510501",
-  "name": "商業電腦應用實習",
-  "lecturer": "詹雅晴",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "RB-508"
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "RB-508"
-    }
-  ]
-}
+{"code":"BA1510501","name":"商業電腦應用實習","lecturer":"詹雅晴","periods":[{"day":1,"time":"10:20-11:10","location":"RB-508"},{"day":1,"time":"11:20-12:10","location":"RB-508"}]}

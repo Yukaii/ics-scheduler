@@ -1,17 +1,1 @@
-{
-  "code": "ET1603008",
-  "name": "物理",
-  "lecturer": "陳致曉",
-  "periods": [
-    {
-      "day": 2,
-      "time": "18:25-19:15",
-      "location": "IB-511-2"
-    },
-    {
-      "day": 2,
-      "time": "09:10-10:00",
-      "location": "TR-312"
-    }
-  ]
-}
+{"code":"ET1603008","name":"物理","lecturer":"陳致曉","periods":[{"day":2,"time":"18:25-19:15","location":"IB-511-2"},{"day":2,"time":"09:10-10:00","location":"TR-312"}]}

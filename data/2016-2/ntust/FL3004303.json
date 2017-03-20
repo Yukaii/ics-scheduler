@@ -1,17 +1,1 @@
-{
-  "code": "FL3004303",
-  "name": "中英口譯(二)",
-  "lecturer": "陳聖傑",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "RB-301"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "RB-301"
-    }
-  ]
-}
+{"code":"FL3004303","name":"中英口譯(二)","lecturer":"陳聖傑","periods":[{"day":2,"time":"13:20-14:10","location":"RB-301"},{"day":2,"time":"14:20-15:10","location":"RB-301"}]}

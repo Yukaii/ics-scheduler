@@ -1,17 +1,1 @@
-{
-  "code": "3T1541702",
-  "name": "雲物理學",
-  "lecturer": "陳正平",
-  "periods": [
-    {
-      "day": 4,
-      "time": "10:20-11:10",
-      "location": "大氣B105"
-    },
-    {
-      "day": 4,
-      "time": "11:20-12:10",
-      "location": "大氣B105"
-    }
-  ]
-}
+{"code":"3T1541702","name":"雲物理學","lecturer":"陳正平","periods":[{"day":4,"time":"10:20-11:10","location":"大氣B105"},{"day":4,"time":"11:20-12:10","location":"大氣B105"}]}

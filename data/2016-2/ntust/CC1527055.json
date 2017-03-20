@@ -1,17 +1,1 @@
-{
-  "code": "CC1527055",
-  "name": "體育(撞球)",
-  "lecturer": "周庭棟",
-  "periods": [
-    {
-      "day": 5,
-      "time": "16:30-17:20",
-      "location": ""
-    },
-    {
-      "day": 5,
-      "time": "17:30-18:20",
-      "location": ""
-    }
-  ]
-}
+{"code":"CC1527055","name":"體育(撞球)","lecturer":"周庭棟","periods":[{"day":5,"time":"16:30-17:20","location":""},{"day":5,"time":"17:30-18:20","location":""}]}

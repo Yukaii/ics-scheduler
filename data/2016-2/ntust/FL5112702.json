@@ -1,17 +1,1 @@
-{
-  "code": "FL5112702",
-  "name": "量化研究方法",
-  "lecturer": "謝育芬",
-  "periods": [
-    {
-      "day": 2,
-      "time": "18:25-19:15",
-      "location": "T4-407"
-    },
-    {
-      "day": 2,
-      "time": "19:20-20:10",
-      "location": "T4-407"
-    }
-  ]
-}
+{"code":"FL5112702","name":"量化研究方法","lecturer":"謝育芬","periods":[{"day":2,"time":"18:25-19:15","location":"T4-407"},{"day":2,"time":"19:20-20:10","location":"T4-407"}]}

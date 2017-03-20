@@ -1,17 +1,1 @@
-{
-  "code": "TCG028301",
-  "name": "自然環保與人文思維",
-  "lecturer": "蔡昱宇",
-  "periods": [
-    {
-      "day": 4,
-      "time": "10:20-11:10",
-      "location": "TR-312"
-    },
-    {
-      "day": 4,
-      "time": "11:20-12:10",
-      "location": "TR-312"
-    }
-  ]
-}
+{"code":"TCG028301","name":"自然環保與人文思維","lecturer":"蔡昱宇","periods":[{"day":4,"time":"10:20-11:10","location":"TR-312"},{"day":4,"time":"11:20-12:10","location":"TR-312"}]}

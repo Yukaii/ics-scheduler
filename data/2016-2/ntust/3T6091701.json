@@ -1,17 +1,1 @@
-{
-  "code": "3T6091701",
-  "name": "抒情傳統專題下",
-  "lecturer": "鄭毓瑜",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "文17"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "文17"
-    }
-  ]
-}
+{"code":"3T6091701","name":"抒情傳統專題下","lecturer":"鄭毓瑜","periods":[{"day":2,"time":"13:20-14:10","location":"文17"},{"day":2,"time":"14:20-15:10","location":"文17"}]}

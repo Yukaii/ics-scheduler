@@ -1,17 +1,1 @@
-{
-  "code": "FE1781704",
-  "name": "觀光英文",
-  "lecturer": "林奇臻",
-  "periods": [
-    {
-      "day": 2,
-      "time": "13:20-14:10",
-      "location": "TR-412-1"
-    },
-    {
-      "day": 2,
-      "time": "14:20-15:10",
-      "location": "TR-412-1"
-    }
-  ]
-}
+{"code":"FE1781704","name":"觀光英文","lecturer":"林奇臻","periods":[{"day":2,"time":"13:20-14:10","location":"TR-412-1"},{"day":2,"time":"14:20-15:10","location":"TR-412-1"}]}

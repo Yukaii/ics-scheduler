@@ -1,17 +1,1 @@
-{
-  "code": "CT1001301",
-  "name": "營建工程概論",
-  "lecturer": "陳希舜",
-  "periods": [
-    {
-      "day": 1,
-      "time": "10:20-11:10",
-      "location": "TR-213"
-    },
-    {
-      "day": 1,
-      "time": "11:20-12:10",
-      "location": "TR-213"
-    }
-  ]
-}
+{"code":"CT1001301","name":"營建工程概論","lecturer":"陳希舜","periods":[{"day":1,"time":"10:20-11:10","location":"TR-213"},{"day":1,"time":"11:20-12:10","location":"TR-213"}]}

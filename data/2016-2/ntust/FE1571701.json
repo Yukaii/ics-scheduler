@@ -1,17 +1,1 @@
-{
-  "code": "FE1571701",
-  "name": "世界文化",
-  "lecturer": "江雅婷",
-  "periods": [
-    {
-      "day": 1,
-      "time": "13:20-14:10",
-      "location": "IB-511-2"
-    },
-    {
-      "day": 1,
-      "time": "14:20-15:10",
-      "location": "IB-511-2"
-    }
-  ]
-}
+{"code":"FE1571701","name":"世界文化","lecturer":"江雅婷","periods":[{"day":1,"time":"13:20-14:10","location":"IB-511-2"},{"day":1,"time":"14:20-15:10","location":"IB-511-2"}]}

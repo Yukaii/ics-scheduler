@@ -1,17 +1,1 @@
-{
-  "code": "FL3312301",
-  "name": "英譯中(二)",
-  "lecturer": "鍾玉玲",
-  "periods": [
-    {
-      "day": 3,
-      "time": "13:20-14:10",
-      "location": "T4-402"
-    },
-    {
-      "day": 3,
-      "time": "14:20-15:10",
-      "location": "T4-402"
-    }
-  ]
-}
+{"code":"FL3312301","name":"英譯中(二)","lecturer":"鍾玉玲","periods":[{"day":3,"time":"13:20-14:10","location":"T4-402"},{"day":3,"time":"14:20-15:10","location":"T4-402"}]}
