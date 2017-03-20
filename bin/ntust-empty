@@ -1,0 +1,41 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const filePath = path.join(__dirname, '../tmp/2016-1-ntust.json');
+const courses = JSON.parse(fs.readFileSync(filePath));
+
+// Collection All classrooms
+const classRoomSet = new Set();
+let periodUsedClassRoomsMap = {};
+let classRoomUsedTimeMap = {};
+
+courses.forEach(course => {
+	course.periods.forEach(period => {
+		classRoomSet.add(period.location);
+
+		const dayAndTime = `${period.day} ${period.time}`;
+
+		/* build periodUsedClassRoomsMap */
+		if (typeof periodUsedClassRoomsMap[dayAndTime] === 'undefined') {
+			periodUsedClassRoomsMap[dayAndTime] = new Set();
+		}
+		periodUsedClassRoomsMap[dayAndTime].add(period.location);
+
+		/* build classRoomUsedTimeMap */
+		if (typeof classRoomUsedTimeMap[period.location] === 'undefined') {
+			classRoomUsedTimeMap[period.location] = new Set();
+		}
+		classRoomUsedTimeMap[period.location].add(dayAndTime);
+	});
+});
+
+function convertSetMap(oldMap) {
+	return Object.keys(oldMap).reduce((newMap, key) => {
+		return Object.assign({}, newMap, {[key]: Array.from(oldMap[key])});
+	}, {});
+}
+
+periodUsedClassRoomsMap = convertSetMap(periodUsedClassRoomsMap);
+classRoomUsedTimeMap = convertSetMap(classRoomUsedTimeMap);
+const classRooms = Array.from(classRoomSet);
