@@ -32,14 +32,14 @@ const DAYS = [
 let periodMap, classrooms, classroomTimes;
 
 $(document).ready(() => {
-	$.getJSON('../data/2016-1/ntust-classrooms.json', data => {
+	$.getJSON('../data/2016-2/ntust-classrooms.json', data => {
 		classrooms = data;
 	});
-	$.getJSON('../data/2016-1/ntust-classroom-times.json', data => {
+	$.getJSON('../data/2016-2/ntust-classroom-times.json', data => {
 		classroomTimes = data;
 	});
 
-	$.getJSON('../data/2016-1/ntust-period-classrooms.json', data => {
+	$.getJSON('../data/2016-2/ntust-period-classrooms.json', data => {
 		periodMap = data;
 
 		// TODO: extract the following dynamically
@@ -80,7 +80,7 @@ $(document).ready(() => {
 				const day = parseInt((clickedTd.attr('data-day')));
 				const time = PERIODS[clickedTd.attr('data-time')];
 
-				const availableClassrooms = $(classrooms).not(periodMap[`${day} ${time}`]).get().filter(name => name.match(/^[A-Za-z]+/));
+				const availableClassrooms = $(classrooms).not(periodMap[`${day} ${time}`]).get().filter(name => name.match(/^[A-Za-z]+/)).sort();
 
 				$('#classrooms-modal .modal-body').text(JSON.stringify(availableClassrooms, null, 2));
 
