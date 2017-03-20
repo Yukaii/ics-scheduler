@@ -82,11 +82,27 @@ $(document).ready(() => {
 
 				const availableClassrooms = $(classrooms).not(periodMap[`${day} ${time}`]).get().filter(name => name.match(/^[A-Za-z]+/)).sort();
 
-				$('#classrooms-modal .modal-body').text(JSON.stringify(availableClassrooms, null, 2));
+				const list = availableClassrooms.map(text => `<div class="list-item">${text}</div>`).join('');
+
+				$('#classrooms-modal .modal-body .classroom-list').empty();
+				$('#classrooms-modal .modal-body .classroom-list').append(list);
 
 				$('#classrooms-modal').modal();
+				$('#classrooms-modal .modal-body #classroom-filter-input').keyup();
 			} else {
 				// show some error, classrooms not loaded yet
+			}
+		});
+	});
+
+	$('#classrooms-modal .modal-body #classroom-filter-input').keyup(function(event) {
+		const searchText = event.target.value.toUpperCase();
+
+		$('#classrooms-modal .modal-body .classroom-list > .list-item').each(function() {
+			if (!$(this).text().includes(searchText)) {
+				$(this).css('display', 'none');
+			} else {
+				$(this).css('display', 'inherit');
 			}
 		});
 	});
