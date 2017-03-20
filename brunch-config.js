@@ -1,9 +1,15 @@
 module.exports = {
 	files: {
 		javascripts: {
-			joinTo: {
-				'vendor.js': /^(?!app)/,
-				'app.js': /^app/
+			entryPoints: {
+				'app/app.js': {
+					'app.js': /^app/,
+					'vendor.js': /^(?!app)/
+				},
+				'app/classroom.js': {
+					'classroom.js': /^app/,
+					'vendor.js': /^(?!app)/
+				}
 			}
 		},
 		stylesheets: {
