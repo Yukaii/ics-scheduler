@@ -88,14 +88,14 @@ $(document).ready(() => {
 				$('#classrooms-modal .modal-body .classroom-list').append(list);
 
 				$('#classrooms-modal').modal();
-				$('#classrooms-modal .modal-body #classroom-filter-input').keyup();
+				$('#classrooms-modal .modal-header #classroom-filter-input').keyup();
 			} else {
 				// show some error, classrooms not loaded yet
 			}
 		});
 	});
 
-	$('#classrooms-modal .modal-body #classroom-filter-input').keyup(function(event) {
+	$('#classrooms-modal .modal-header #classroom-filter-input').keyup(function(event) {
 		const searchText = event.target.value.toUpperCase();
 
 		$('#classrooms-modal .modal-body .classroom-list > .list-item').each(function() {
