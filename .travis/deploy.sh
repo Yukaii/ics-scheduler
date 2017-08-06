@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-YEAR=2016
-TERM=2
+YEAR=2017
+TERM=1
 
 SOURCE_BRANCH="production"
 TARGET_BRANCH="gh-pages"
