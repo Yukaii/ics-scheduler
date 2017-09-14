@@ -5,5 +5,5 @@ cache: yarn
 before_install:
   - npm install -g brunch
 script:
-  - ./.travis/crawl_job.sh
+  - travis_wait ./.travis/crawl_job.sh
   - ./.travis/deploy.sh
