@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-YEAR=2017
-TERM=2
+YEAR=2018
+TERM=1
 
 if [ "$TRAVIS_BRANCH" != "data-updates" ]; then
     echo "on $TRAVIS_BRANCH branch, would not trigger crawler run"
